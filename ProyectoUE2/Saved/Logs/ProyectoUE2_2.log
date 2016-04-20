@@ -1,0 +1,1027 @@
+﻿Log file open, 04/03/16 14:24:00
+LogInit:Display: Running engine for game: ProyectoUE2
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1487300379) SRandInit(-1487300376).
+LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+LogStats: Stats thread started at 0.259592
+LogConfig:Warning: Failed to saved backup for config[Engine]
+LogConfig:Warning: Failed to saved backup for config[Game]
+LogConfig:Warning: Failed to saved backup for config[Input]
+LogConfig:Warning: Failed to saved backup for config[Editor]
+LogConfig:Warning: Failed to saved backup for config[EditorSettings]
+LogConfig:Warning: Failed to saved backup for config[EditorKeyBindings]
+LogConfig:Warning: Failed to saved backup for config[GameUserSettings]
+[2016.04.03-19.24.02:163][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.03-19.24.02:163][  0]LogInit: API Version: 2758231
+[2016.04.03-19.24.02:163][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.04.03-19.24.02:163][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.04.03-19.24.02:163][  0]LogInit: Build Configuration: Development
+[2016.04.03-19.24.02:163][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.04.03-19.24.02:163][  0]LogInit: Command line:  
+[2016.04.03-19.24.02:163][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.04.03-19.24.02:163][  0]LogInit: Rocket: 1
+[2016.04.03-19.24.02:331][  0]LogInit: Using libcurl 7.41.0
+[2016.04.03-19.24.02:331][  0]LogInit:  - built for x86_64-pc-win32
+[2016.04.03-19.24.02:331][  0]LogInit:  - supports SSL with WinSSL
+[2016.04.03-19.24.02:331][  0]LogInit:  - other features:
+[2016.04.03-19.24.02:331][  0]LogInit:      CURL_VERSION_SSL
+[2016.04.03-19.24.02:331][  0]LogInit:      CURL_VERSION_IPV6
+[2016.04.03-19.24.02:331][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.04.03-19.24.02:331][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.04.03-19.24.02:331][  0]LogInit:      CURL_VERSION_IDN
+[2016.04.03-19.24.02:331][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.04.03-19.24.02:332][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.04.03-19.24.02:332][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.04.03-19.24.02:332][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.04.03-19.24.02:332][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.04.03-19.24.02:390][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.04.03-19.24.02:429][  0]LogInit: Object subsystem initialized
+[2016.04.03-19.24.02:435][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.03-19.24.02:435][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.03-19.24.02:485][  0]LogConfig:Warning: Failed to saved backup for config[DeviceProfiles]
+[2016.04.03-19.24.02:651][  0]LogInit: Computer: ACER
+[2016.04.03-19.24.02:651][  0]LogInit: User: MieL
+[2016.04.03-19.24.02:651][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.04.03-19.24.02:651][  0]LogInit: High frequency timer resolution =1.656325 MHz
+[2016.04.03-19.24.02:652][  0]LogMemory: Memory total: Physical=5.9GB (6GB approx)
+[2016.04.03-19.24.02:652][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.03-19.24.02:652][  0]LogMemory: Process Physical Memory: 54.62 MB used, 54.62 MB peak
+[2016.04.03-19.24.02:652][  0]LogMemory: Process Virtual Memory: 55.38 MB used, 55.38 MB peak
+[2016.04.03-19.24.02:652][  0]LogMemory: Physical Memory: 5065.75 MB used, 6024.27 MB total
+[2016.04.03-19.24.02:652][  0]LogMemory: Virtual Memory: 358.65 MB used, 134217728.00 MB total
+[2016.04.03-19.24.03:112][  0]LogTextLocalizationManager: No specific translations for ('es-MX') exist, so ('es') translations will be used.
+[2016.04.03-19.24.05:469][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2016.04.03-19.24.05:474][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2016.04.03-19.24.05:482][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.04.03-19.24.05:482][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.04.03-19.24.05:482][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.04.03-19.24.05:503][  0]LogD3D11RHI: !Direct3DDevice
+[2016.04.03-19.24.05:503][  0]LogRHI: Texture pool is 638 MB (70% of 912 MB)
+[2016.04.03-19.24.05:533][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.03-19.24.05:917][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Intermediate/Shaders/WorkingDirectory/3708/).
+[2016.04.03-19.24.05:918][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/7B44277D4E667284EC2C5C80FDD28A3B/'.
+[2016.04.03-19.24.05:918][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.03-19.24.45:221][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.03-19.24.45:249][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.03-19.24.45:275][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.03-19.24.45:304][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.03-19.24.45:327][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.03-19.24.45:345][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.03-19.24.45:372][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.03-19.24.45:411][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.03-19.24.45:540][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.03-19.24.45:656][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.03-19.24.45:862][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.03-19.24.45:957][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.03-19.24.45:957][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.03-19.24.45:966][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.03-19.24.46:026][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.03-19.24.46:053][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.03-19.24.46:075][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.03-19.24.46:104][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.03-19.24.46:104][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.03-19.24.47:457][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.03-19.25.08:488][  0]LogDerivedDataCache: Loaded boot cache 20.96s 41MB C:/Users/User/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.03-19.25.08:489][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.04.03-19.25.08:489][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.03-19.25.08:489][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.03-19.25.08:489][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.03-19.25.08:490][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.03-19.25.11:573][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.03-19.25.12:023][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.03-19.26.21:818][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.03-19.26.21:940][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.04.03-19.26.29:305][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.03-19.26.29:305][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.03-19.27.11:385][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.03-19.29.13:941][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.03-19.29.15:630][  0]LogAssetRegistry: FAssetRegistry took 0.0125 seconds to start up
+[2016.04.03-19.29.16:306][  0]LogConfig:Warning: Failed to saved backup for config[InternationalizationExport]
+[2016.04.03-19.29.22:412][  0]LogConfig:Warning: Failed to saved backup for config[SourceControlSettings]
+[2016.04.03-19.29.22:527][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.04.03-19.29.22:688][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.04.03-19.29.23:553][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.04.03-19.29.23:994][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.04.03-19.29.33:610][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.04.03-19.29.33:610][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.04.03-19.29.37:857][  0]LogAutomationTest:Warning: Smoke tests took > 1s to run: 2.45s
+[2016.04.03-19.29.38:069][  0]LogEngine: Initializing Engine...
+[2016.04.03-19.29.38:217][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.03-19.29.38:645][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.03-19.29.41:542][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.03-19.29.41:855][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.03-19.29.42:368][  0]LogInit: FAudioDevice initialized.
+[2016.04.03-19.29.42:386][  0]LogDerivedDataCache:Error: Could not save memory cache C:/Users/User/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.03-19.29.42:490][  0]LogInit: Texture streaming: Enabled
+[2016.04.03-19.29.42:972][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.04.03-19.29.42:972][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.03-19.29.42:972][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 7d6e982040bdfa2d37207091dd9f6648|703d63ca085b4982a6f34989b8311170|423990dd-a1b8-4259-9077-6163d5ea4614
+[2016.04.03-19.29.43:002][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.04.03-19.29.43:344][  0]LogInit: Transaction tracking system initialized
+[2016.04.03-19.29.44:948][  0]BlueprintLog: New page: Cargar el editor
+[2016.04.03-19.29.51:302][  0]LocalizationService: Información Localization service is disabled
+[2016.04.03-19.29.58:808][  0]LogConsoleResponse:Display: 
+[2016.04.03-19.30.05:087][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/Unreal Projects/ProyectoUE2/Content/' took 0.06s
+[2016.04.03-19.30.05:087][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.03-19.30.09:421][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.04.03-19.30.09:449][  0]Cmd: MAP LOAD FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.03-19.30.09:523][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Menu.umap'
+[2016.04.03-19.30.09:523][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.03-19.30.10:284][  0]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 759.69ms to complete.
+[2016.04.03-19.30.10:285][  0]LogFileHelpers: Loading map 'Menu' took 0.836
+[2016.04.03-19.30.12:913][  0]LogCollectionManager: Loaded 0 collections in 0.024745 seconds
+[2016.04.03-19.30.13:276][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/Collections/' took 0.02s
+[2016.04.03-19.30.13:276][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Developers/MieL/Collections/' took 0.01s
+[2016.04.03-19.30.13:276][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Collections/' took 0.01s
+[2016.04.03-19.30.13:276][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000009 seconds
+[2016.04.03-19.30.13:399][  0]LogContentBrowser: Native class hierarchy populated in 0.1220 seconds. Added 1893 classes and 338 folders.
+[2016.04.03-19.30.13:744][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0035 seconds. Added 0 classes and 0 folders.
+[2016.04.03-19.30.20:562][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2016.04.03-19.30.20:846][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0020 seconds. Added 1 classes and 2 folders.
+[2016.04.03-19.30.23:001][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.03-19.30.23:527][  0]LogUObjectGlobals:Warning: Error al encontrar el objeto 'Class Ninguno.'
+[2016.04.03-19.30.23:682][  0]LogLoad: Full Startup: 385.07 seconds (BP compile: 2.14 seconds)
+[2016.04.03-19.30.24:052][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.03-19.30.24:866][  0]LogContentStreaming: Texture pool size now 200 MB
+[2016.04.03-19.30.26:080][  0]LogRenderer: Reallocating scene render targets to support 848x256 (Frame:2).
+[2016.04.03-19.30.33:197][ 13]LogAssetRegistry: Asset discovery search completed in 77.5790 seconds
+[2016.04.03-19.30.33:197][ 13]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2016.04.03-19.30.33:197][ 13]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000062 seconds (updated 0 objects)
+[2016.04.03-19.35.27:772][202]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.04.03-19.36.16:942][340]LogSavePackage: Save=42.907040ms
+[2016.04.03-19.36.16:942][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/lambert1CEBB8206412DE07E33E812AB107DCD80.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/lambert1.uasset'
+[2016.04.03-19.36.16:954][340]LogSavePackage: Total save time: 69.626432ms
+[2016.04.03-19.36.16:954][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/lambert1.uasset
+[2016.04.03-19.36.17:082][340]LogSavePackage: Save=51.358883ms
+[2016.04.03-19.36.17:082][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/10a91165B2841DF2274091001A1F826FFF4.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/10a.uasset'
+[2016.04.03-19.36.17:095][340]LogSavePackage: Total save time: 65.290324ms
+[2016.04.03-19.36.17:095][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/10a.uasset
+[2016.04.03-19.36.17:111][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/ambient/10a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/10a.uasset" SILENT=true
+[2016.04.03-19.36.17:344][340]LogSavePackage: Save=6.892367ms
+[2016.04.03-19.36.17:345][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/10a86AC38EA41A44C7CCC16738A2EC2578B.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/10a.uasset'
+[2016.04.03-19.36.17:365][340]LogSavePackage: Total save time: 248.448826ms
+[2016.04.03-19.36.17:365][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/10a.uasset
+[2016.04.03-19.36.17:485][340]LogSavePackage: Save=44.024574ms
+[2016.04.03-19.36.17:485][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/11aF336A6FE48605B83FA808694E61DEEC5.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/11a.uasset'
+[2016.04.03-19.36.17:498][340]LogSavePackage: Total save time: 58.572441ms
+[2016.04.03-19.36.17:499][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/11a.uasset
+[2016.04.03-19.36.17:603][340]LogSavePackage: Save=42.180733ms
+[2016.04.03-19.36.17:603][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/15a683CDA8146C5A88125145AB835764065.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/15a.uasset'
+[2016.04.03-19.36.17:616][340]LogSavePackage: Total save time: 55.533182ms
+[2016.04.03-19.36.17:616][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/15a.uasset
+[2016.04.03-19.36.17:629][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/ambient/15a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/15a.uasset" SILENT=true
+[2016.04.03-19.36.17:870][340]LogSavePackage: Save=7.844475ms
+[2016.04.03-19.36.17:870][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/15aCD2EEB994EE6A89D1DA661853F5C6C53.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/15a.uasset'
+[2016.04.03-19.36.17:896][340]LogSavePackage: Total save time: 261.614721ms
+[2016.04.03-19.36.17:896][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/15a.uasset
+[2016.04.03-19.36.18:017][340]LogSavePackage: Save=47.020966ms
+[2016.04.03-19.36.18:017][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/16aC4D65498488F5023425C30AC053C9A9B.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/16a.uasset'
+[2016.04.03-19.36.18:034][340]LogSavePackage: Total save time: 64.813364ms
+[2016.04.03-19.36.18:034][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/16a.uasset
+[2016.04.03-19.36.18:050][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/ambient/16a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/16a.uasset" SILENT=true
+[2016.04.03-19.36.18:335][340]LogSavePackage: Save=8.626327ms
+[2016.04.03-19.36.18:335][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/16a74FAE26C415F4B4B223B1FB524110559.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/16a.uasset'
+[2016.04.03-19.36.18:351][340]LogSavePackage: Total save time: 294.241164ms
+[2016.04.03-19.36.18:351][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/16a.uasset
+[2016.04.03-19.36.18:477][340]LogSavePackage: Save=51.028633ms
+[2016.04.03-19.36.18:477][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/17aF8CE5BB8444243F0FA96D0A964006974.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/17a.uasset'
+[2016.04.03-19.36.18:491][340]LogSavePackage: Total save time: 66.201985ms
+[2016.04.03-19.36.18:491][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/17a.uasset
+[2016.04.03-19.36.18:507][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/ambient/17a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/17a.uasset" SILENT=true
+[2016.04.03-19.36.18:801][340]LogSavePackage: Save=8.314190ms
+[2016.04.03-19.36.18:801][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/17aA6F1F51F40A01D8CD2912682CE967AF9.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/17a.uasset'
+[2016.04.03-19.36.18:819][340]LogSavePackage: Total save time: 304.486133ms
+[2016.04.03-19.36.18:819][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/17a.uasset
+[2016.04.03-19.36.18:960][340]LogSavePackage: Save=51.206135ms
+[2016.04.03-19.36.18:960][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/18a8EF74E344DA99CDEDDF5E4BC74F0A86A.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/18a.uasset'
+[2016.04.03-19.36.18:973][340]LogSavePackage: Total save time: 65.447301ms
+[2016.04.03-19.36.18:973][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/18a.uasset
+[2016.04.03-19.36.18:987][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/ambient/18a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/18a.uasset" SILENT=true
+[2016.04.03-19.36.19:326][340]LogSavePackage: Save=9.240940ms
+[2016.04.03-19.36.19:326][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/18a194AC0EC49E4E1D71A25C7970A9C6858.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/18a.uasset'
+[2016.04.03-19.36.19:347][340]LogSavePackage: Total save time: 353.628062ms
+[2016.04.03-19.36.19:347][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/18a.uasset
+[2016.04.03-19.36.19:476][340]LogSavePackage: Save=50.487675ms
+[2016.04.03-19.36.19:476][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/19aA708DE9F4AC9D336FB5D3AA31E3C1998.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/19a.uasset'
+[2016.04.03-19.36.19:493][340]LogSavePackage: Total save time: 68.249892ms
+[2016.04.03-19.36.19:493][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/19a.uasset
+[2016.04.03-19.36.19:508][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/ambient/19a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/19a.uasset" SILENT=true
+[2016.04.03-19.36.19:793][340]LogSavePackage: Save=6.411181ms
+[2016.04.03-19.36.19:793][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/19a0E656B5C4ADCD47076AF96A6E943A4A1.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/19a.uasset'
+[2016.04.03-19.36.19:808][340]LogSavePackage: Total save time: 292.853758ms
+[2016.04.03-19.36.19:808][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/19a.uasset
+[2016.04.03-19.36.19:913][340]LogSavePackage: Save=40.932789ms
+[2016.04.03-19.36.19:913][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/1a524B98994CFF07278A1DC9B136EDB162.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/1a.uasset'
+[2016.04.03-19.36.19:931][340]LogSavePackage: Total save time: 59.751559ms
+[2016.04.03-19.36.19:931][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/1a.uasset
+[2016.04.03-19.36.19:944][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/ambient/1a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/1a.uasset" SILENT=true
+[2016.04.03-19.36.20:178][340]LogSavePackage: Save=6.503554ms
+[2016.04.03-19.36.20:178][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/1a7F8844854A2D8BB0A54EEABDD68AB011.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/1a.uasset'
+[2016.04.03-19.36.20:196][340]LogSavePackage: Total save time: 246.278960ms
+[2016.04.03-19.36.20:196][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/1a.uasset
+[2016.04.03-19.36.20:299][340]LogSavePackage: Save=40.644802ms
+[2016.04.03-19.36.20:299][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/20aFA45401B48933E994F491C82DAC864DC.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/20a.uasset'
+[2016.04.03-19.36.20:316][340]LogSavePackage: Total save time: 58.627985ms
+[2016.04.03-19.36.20:316][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/20a.uasset
+[2016.04.03-19.36.20:331][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/ambient/20a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/20a.uasset" SILENT=true
+[2016.04.03-19.36.20:556][340]LogSavePackage: Save=6.458878ms
+[2016.04.03-19.36.20:556][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/20a3F61D2464DA2FA6387932691DA568C96.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/20a.uasset'
+[2016.04.03-19.36.20:573][340]LogSavePackage: Total save time: 238.051709ms
+[2016.04.03-19.36.20:574][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/20a.uasset
+[2016.04.03-19.36.20:677][340]LogSavePackage: Save=39.271881ms
+[2016.04.03-19.36.20:677][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/21a5214705940B0D0B01BE3CC83F8CED973.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/21a.uasset'
+[2016.04.03-19.36.20:694][340]LogSavePackage: Total save time: 56.995459ms
+[2016.04.03-19.36.20:694][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/21a.uasset
+[2016.04.03-19.36.20:708][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/ambient/21a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/21a.uasset" SILENT=true
+[2016.04.03-19.36.20:935][340]LogSavePackage: Save=6.349599ms
+[2016.04.03-19.36.20:935][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/21aA421C81F4062F6A1ACF7F0A8C995DC7D.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/21a.uasset'
+[2016.04.03-19.36.20:955][340]LogSavePackage: Total save time: 242.282160ms
+[2016.04.03-19.36.20:955][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/21a.uasset
+[2016.04.03-19.36.21:057][340]LogSavePackage: Save=40.956333ms
+[2016.04.03-19.36.21:057][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/22aAF488D534C2CC80C8A3002B837999F46.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/22a.uasset'
+[2016.04.03-19.36.21:074][340]LogSavePackage: Total save time: 58.551311ms
+[2016.04.03-19.36.21:074][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/22a.uasset
+[2016.04.03-19.36.21:087][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/ambient/22a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/22a.uasset" SILENT=true
+[2016.04.03-19.36.21:317][340]LogSavePackage: Save=6.734186ms
+[2016.04.03-19.36.21:317][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/22a24CDF38A43B2DF08F41A7D8B17C46A62.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/22a.uasset'
+[2016.04.03-19.36.21:340][340]LogSavePackage: Total save time: 247.089189ms
+[2016.04.03-19.36.21:340][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/22a.uasset
+[2016.04.03-19.36.21:452][340]LogSavePackage: Save=45.178333ms
+[2016.04.03-19.36.21:452][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/23a9C989C3447F464AC82241C94DD2D7FAC.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/23a.uasset'
+[2016.04.03-19.36.21:467][340]LogSavePackage: Total save time: 60.916185ms
+[2016.04.03-19.36.21:467][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/23a.uasset
+[2016.04.03-19.36.21:481][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/ambient/23a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/23a.uasset" SILENT=true
+[2016.04.03-19.36.21:707][340]LogSavePackage: Save=6.390050ms
+[2016.04.03-19.36.21:708][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/23a75B22A1944277F24BC3DF2802A68D3E2.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/23a.uasset'
+[2016.04.03-19.36.21:722][340]LogSavePackage: Total save time: 235.482771ms
+[2016.04.03-19.36.21:722][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/23a.uasset
+[2016.04.03-19.36.21:831][340]LogSavePackage: Save=48.672813ms
+[2016.04.03-19.36.21:831][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/24a199EDD814598744A7BDD139307352556.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/24a.uasset'
+[2016.04.03-19.36.21:849][340]LogSavePackage: Total save time: 67.955263ms
+[2016.04.03-19.36.21:849][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/24a.uasset
+[2016.04.03-19.36.21:864][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/ambient/24a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/24a.uasset" SILENT=true
+[2016.04.03-19.36.22:089][340]LogSavePackage: Save=6.443784ms
+[2016.04.03-19.36.22:089][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/24aD381E1EF4EDC8D2531CA03BB8A1DBE9E.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/24a.uasset'
+[2016.04.03-19.36.22:108][340]LogSavePackage: Total save time: 239.166830ms
+[2016.04.03-19.36.22:108][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/24a.uasset
+[2016.04.03-19.36.22:212][340]LogSavePackage: Save=40.056149ms
+[2016.04.03-19.36.22:213][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/25aF847102C4C904249627AB99C39110DE0.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/25a.uasset'
+[2016.04.03-19.36.22:230][340]LogSavePackage: Total save time: 58.428146ms
+[2016.04.03-19.36.22:230][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/25a.uasset
+[2016.04.03-19.36.22:244][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/ambient/25a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/25a.uasset" SILENT=true
+[2016.04.03-19.36.22:469][340]LogSavePackage: Save=6.465518ms
+[2016.04.03-19.36.22:469][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/25a7A359AE744BFAB84F3C948A6E672FBFD.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/25a.uasset'
+[2016.04.03-19.36.22:486][340]LogSavePackage: Total save time: 236.656453ms
+[2016.04.03-19.36.22:486][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/25a.uasset
+[2016.04.03-19.36.22:587][340]LogSavePackage: Save=40.319382ms
+[2016.04.03-19.36.22:587][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/27a9A8FABA0464A08BE213E9C853A717E2B.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/27a.uasset'
+[2016.04.03-19.36.22:605][340]LogSavePackage: Total save time: 58.757190ms
+[2016.04.03-19.36.22:605][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/27a.uasset
+[2016.04.03-19.36.22:618][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/ambient/27a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/27a.uasset" SILENT=true
+[2016.04.03-19.36.22:842][340]LogSavePackage: Save=7.377779ms
+[2016.04.03-19.36.22:842][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/27aB45F0C0C4DAEA804D8A7839D94D26FC6.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/27a.uasset'
+[2016.04.03-19.36.22:860][340]LogSavePackage: Total save time: 238.482788ms
+[2016.04.03-19.36.22:861][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/27a.uasset
+[2016.04.03-19.36.22:969][340]LogSavePackage: Save=41.277527ms
+[2016.04.03-19.36.22:969][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/28a2DE626324AD30A80303AA7AB821AD800.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/28a.uasset'
+[2016.04.03-19.36.22:985][340]LogSavePackage: Total save time: 59.022233ms
+[2016.04.03-19.36.22:985][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/28a.uasset
+[2016.04.03-19.36.22:998][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/ambient/28a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/28a.uasset" SILENT=true
+[2016.04.03-19.36.23:227][340]LogSavePackage: Save=6.286206ms
+[2016.04.03-19.36.23:227][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/28a48967B994D64361B51F26BA614853E6A.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/28a.uasset'
+[2016.04.03-19.36.23:244][340]LogSavePackage: Total save time: 241.162814ms
+[2016.04.03-19.36.23:244][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/28a.uasset
+[2016.04.03-19.36.23:347][340]LogSavePackage: Save=40.625481ms
+[2016.04.03-19.36.23:347][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/29a7EF45D314135E3F7536C7480A7DA3059.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/29a.uasset'
+[2016.04.03-19.36.23:365][340]LogSavePackage: Total save time: 59.211813ms
+[2016.04.03-19.36.23:365][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/29a.uasset
+[2016.04.03-19.36.23:381][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/ambient/29a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/29a.uasset" SILENT=true
+[2016.04.03-19.36.23:644][340]LogSavePackage: Save=7.225031ms
+[2016.04.03-19.36.23:644][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/29a2471261040C05EF8B4F0F6AD48C6C0F0.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/29a.uasset'
+[2016.04.03-19.36.23:660][340]LogSavePackage: Total save time: 272.906587ms
+[2016.04.03-19.36.23:660][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/29a.uasset
+[2016.04.03-19.36.24:580][340]LogSavePackage: Save=849.513245ms
+[2016.04.03-19.36.24:580][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/pared_entrada_abajo_normalesC9E4C0984D273CE3B192A49D1BE564A2.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/pared_entrada_abajo_normales.uasset'
+[2016.04.03-19.36.24:595][340]LogSavePackage: Total save time: 865.388133ms
+[2016.04.03-19.36.24:595][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/pared_entrada_abajo_normales.uasset
+[2016.04.03-19.36.24:940][340]LogSavePackage: Save=8.838845ms
+[2016.04.03-19.36.24:941][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/pared_entrada_abajo_normalesFD2EC70E4AC6A40F8C1E6CBD22881A9B.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/pared_entrada_abajo_normales.uasset'
+[2016.04.03-19.36.24:960][340]LogSavePackage: Total save time: 326.237302ms
+[2016.04.03-19.36.24:960][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/pared_entrada_abajo_normales.uasset
+[2016.04.03-19.36.25:709][340]LogSavePackage: Save=677.404480ms
+[2016.04.03-19.36.25:710][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/pared_entrada_abajo_text11257AC64F99A0204D9539AC10CD9644.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/pared_entrada_abajo_text.uasset'
+[2016.04.03-19.36.25:721][340]LogSavePackage: Total save time: 689.790953ms
+[2016.04.03-19.36.25:721][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/pared_entrada_abajo_text.uasset
+[2016.04.03-19.36.25:957][340]LogSavePackage: Save=7.625919ms
+[2016.04.03-19.36.25:957][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/pared_entrada_abajo_text01F5ED834CAE0AC9C20E468AA738C769.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/pared_entrada_abajo_text.uasset'
+[2016.04.03-19.36.25:977][340]LogSavePackage: Total save time: 237.613998ms
+[2016.04.03-19.36.25:977][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/pared_entrada_abajo_text.uasset
+[2016.04.03-19.36.26:126][340]LogSavePackage: Save=49.086987ms
+[2016.04.03-19.36.26:126][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/lad_pared_graf1E4DC57949696B823AE7F79B2D9FF82E.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/lad_pared_graf.uasset'
+[2016.04.03-19.36.26:147][340]LogSavePackage: Total save time: 70.807964ms
+[2016.04.03-19.36.26:147][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/lad_pared_graf.uasset
+[2016.04.03-19.36.26:253][340]LogSavePackage: Save=41.970627ms
+[2016.04.03-19.36.26:253][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/2a35B844594F6D8B081DE5DFA01C77FA61.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/2a.uasset'
+[2016.04.03-19.36.26:271][340]LogSavePackage: Total save time: 61.328545ms
+[2016.04.03-19.36.26:271][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/2a.uasset
+[2016.04.03-19.36.26:285][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/ambient/2a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/2a.uasset" SILENT=true
+[2016.04.03-19.36.26:511][340]LogSavePackage: Save=6.527704ms
+[2016.04.03-19.36.26:511][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/2a1DD10E4E4316C1B072F77D93FDC128FC.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/2a.uasset'
+[2016.04.03-19.36.26:531][340]LogSavePackage: Total save time: 241.349373ms
+[2016.04.03-19.36.26:531][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/2a.uasset
+[2016.04.03-19.36.26:636][340]LogSavePackage: Save=40.381569ms
+[2016.04.03-19.36.26:636][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/30aF85AD6DE40B7A1CDB64DC3A163B810E8.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/30a.uasset'
+[2016.04.03-19.36.26:653][340]LogSavePackage: Total save time: 58.633421ms
+[2016.04.03-19.36.26:653][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/30a.uasset
+[2016.04.03-19.36.26:667][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/ambient/30a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/30a.uasset" SILENT=true
+[2016.04.03-19.36.26:895][340]LogSavePackage: Save=6.437142ms
+[2016.04.03-19.36.26:895][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/30aD9E53F8645D89A36678E29BB74E0F3BD.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/30a.uasset'
+[2016.04.03-19.36.26:913][340]LogSavePackage: Total save time: 241.203267ms
+[2016.04.03-19.36.26:913][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/30a.uasset
+[2016.04.03-19.36.27:013][340]LogSavePackage: Save=39.500099ms
+[2016.04.03-19.36.27:013][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/31aD227C7E34168AC62F99D4CB005C8D436.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/31a.uasset'
+[2016.04.03-19.36.27:030][340]LogSavePackage: Total save time: 57.240579ms
+[2016.04.03-19.36.27:030][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/31a.uasset
+[2016.04.03-19.36.27:044][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/ambient/31a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/31a.uasset" SILENT=true
+[2016.04.03-19.36.27:273][340]LogSavePackage: Save=7.045115ms
+[2016.04.03-19.36.27:273][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/31aE1911ED5447AEAAAD7845487F1FC4882.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/31a.uasset'
+[2016.04.03-19.36.27:291][340]LogSavePackage: Total save time: 242.955334ms
+[2016.04.03-19.36.27:291][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/31a.uasset
+[2016.04.03-19.36.27:397][340]LogSavePackage: Save=41.468311ms
+[2016.04.03-19.36.27:397][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/32a63FAC29044380A45072E039560C463C5.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/32a.uasset'
+[2016.04.03-19.36.27:416][340]LogSavePackage: Total save time: 60.989842ms
+[2016.04.03-19.36.27:416][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/32a.uasset
+[2016.04.03-19.36.27:430][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/ambient/32a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/32a.uasset" SILENT=true
+[2016.04.03-19.36.27:654][340]LogSavePackage: Save=6.513215ms
+[2016.04.03-19.36.27:654][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/32a78CA5C1F4856FBDE3A12EE8EECBBD694.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/32a.uasset'
+[2016.04.03-19.36.27:672][340]LogSavePackage: Total save time: 238.020919ms
+[2016.04.03-19.36.27:672][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/32a.uasset
+[2016.04.03-19.36.27:773][340]LogSavePackage: Save=39.002613ms
+[2016.04.03-19.36.27:773][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/33a81D0DF92456681F01E64A19A22C0D80F.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/33a.uasset'
+[2016.04.03-19.36.27:791][340]LogSavePackage: Total save time: 58.768656ms
+[2016.04.03-19.36.27:791][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/33a.uasset
+[2016.04.03-19.36.27:804][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/ambient/33a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/33a.uasset" SILENT=true
+[2016.04.03-19.36.28:031][340]LogSavePackage: Save=6.482423ms
+[2016.04.03-19.36.28:031][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/33a48AF1C08453DE00956B78992B50AA746.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/33a.uasset'
+[2016.04.03-19.36.28:048][340]LogSavePackage: Total save time: 237.976845ms
+[2016.04.03-19.36.28:048][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/33a.uasset
+[2016.04.03-19.36.28:156][340]LogSavePackage: Save=42.645012ms
+[2016.04.03-19.36.28:156][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/3aF0AD70854386BAE01BA77AA2DEAA54CE.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/3a.uasset'
+[2016.04.03-19.36.28:175][340]LogSavePackage: Total save time: 62.101942ms
+[2016.04.03-19.36.28:175][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/3a.uasset
+[2016.04.03-19.36.28:189][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/ambient/3a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/3a.uasset" SILENT=true
+[2016.04.03-19.36.28:416][340]LogSavePackage: Save=6.678037ms
+[2016.04.03-19.36.28:416][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/3aDAA167FB4E41C25D9B7ABEB18C6AC038.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/3a.uasset'
+[2016.04.03-19.36.28:437][340]LogSavePackage: Total save time: 243.469127ms
+[2016.04.03-19.36.28:438][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/3a.uasset
+[2016.04.03-19.36.29:342][340]LogSavePackage: Save=850.446594ms
+[2016.04.03-19.36.29:342][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/columna_1_callejon_norm66F7E9BC46A6FEC1E7FEB093654E88A2.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/columna_1_callejon_norm.uasset'
+[2016.04.03-19.36.29:360][340]LogSavePackage: Total save time: 870.198786ms
+[2016.04.03-19.36.29:361][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/columna_1_callejon_norm.uasset
+[2016.04.03-19.36.29:647][340]LogSavePackage: Save=7.036059ms
+[2016.04.03-19.36.29:647][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/columna_1_callejon_normC75A332345ECF9C20F8173BB8D8D8B0A.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/columna_1_callejon_norm.uasset'
+[2016.04.03-19.36.29:665][340]LogSavePackage: Total save time: 285.960183ms
+[2016.04.03-19.36.29:665][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/columna_1_callejon_norm.uasset
+[2016.04.03-19.36.30:520][340]LogSavePackage: Save=795.698914ms
+[2016.04.03-19.36.30:520][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/columna_1_callejon_text0ED74080416457073C31E18F6A6E5FC0.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/columna_1_callejon_text.uasset'
+[2016.04.03-19.36.30:544][340]LogSavePackage: Total save time: 820.297346ms
+[2016.04.03-19.36.30:544][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/columna_1_callejon_text.uasset
+[2016.04.03-19.36.30:865][340]LogSavePackage: Save=9.321842ms
+[2016.04.03-19.36.30:865][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/columna_1_callejon_text09354B8746949061E24929828D79CC6C.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/columna_1_callejon_text.uasset'
+[2016.04.03-19.36.30:889][340]LogSavePackage: Total save time: 322.623882ms
+[2016.04.03-19.36.30:889][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/columna_1_callejon_text.uasset
+[2016.04.03-19.36.31:002][340]LogSavePackage: Save=47.367516ms
+[2016.04.03-19.36.31:002][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/lambert9AD839B044E46B2C695032F9A2DAF92D6.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/lambert9.uasset'
+[2016.04.03-19.36.31:020][340]LogSavePackage: Total save time: 66.252697ms
+[2016.04.03-19.36.31:020][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/lambert9.uasset
+[2016.04.03-19.36.31:131][340]LogSavePackage: Save=46.158211ms
+[2016.04.03-19.36.31:132][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/4a782A05344684E931F037BFBBE746F624.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/4a.uasset'
+[2016.04.03-19.36.31:152][340]LogSavePackage: Total save time: 67.689613ms
+[2016.04.03-19.36.31:152][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/4a.uasset
+[2016.04.03-19.36.31:167][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/ambient/4a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/4a.uasset" SILENT=true
+[2016.04.03-19.36.31:394][340]LogSavePackage: Save=6.871236ms
+[2016.04.03-19.36.31:394][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/4aCB92D40745ED967DC02F509C97F11B90.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/4a.uasset'
+[2016.04.03-19.36.31:414][340]LogSavePackage: Total save time: 241.037238ms
+[2016.04.03-19.36.31:414][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/4a.uasset
+[2016.04.03-19.36.32:057][340]LogSavePackage: Save=589.934937ms
+[2016.04.03-19.36.32:057][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/ventana_1normD9E02C2649A2611E0919DAB28708F9C2.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/ventana_1norm.uasset'
+[2016.04.03-19.36.32:075][340]LogSavePackage: Total save time: 608.827978ms
+[2016.04.03-19.36.32:075][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/ventana_1norm.uasset
+[2016.04.03-19.36.32:315][340]LogSavePackage: Save=6.505366ms
+[2016.04.03-19.36.32:316][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/ventana_1norm1C462D4A45F40DF89127A98AD922806E.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/ventana_1norm.uasset'
+[2016.04.03-19.36.32:336][340]LogSavePackage: Total save time: 241.826937ms
+[2016.04.03-19.36.32:336][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/ventana_1norm.uasset
+[2016.04.03-19.36.32:942][340]LogSavePackage: Save=553.780823ms
+[2016.04.03-19.36.32:943][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/ventana_1tex63B279A44EAE9DC3FECCB38CDDD0F0C6.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/ventana_1tex.uasset'
+[2016.04.03-19.36.32:961][340]LogSavePackage: Total save time: 573.505200ms
+[2016.04.03-19.36.32:961][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/ventana_1tex.uasset
+[2016.04.03-19.36.33:204][340]LogSavePackage: Save=6.717281ms
+[2016.04.03-19.36.33:204][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/ventana_1texB9FE816F4AD23E6274AB0A97EDEEE161.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/ventana_1tex.uasset'
+[2016.04.03-19.36.33:221][340]LogSavePackage: Total save time: 241.892140ms
+[2016.04.03-19.36.33:221][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/ventana_1tex.uasset
+[2016.04.03-19.36.33:353][340]LogSavePackage: Save=66.611320ms
+[2016.04.03-19.36.33:353][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/ladrillos_ventanaEEFED01A46EB2263B7D4E28060149F60.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/ladrillos_ventana.uasset'
+[2016.04.03-19.36.33:371][340]LogSavePackage: Total save time: 86.142514ms
+[2016.04.03-19.36.33:371][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/ladrillos_ventana.uasset
+[2016.04.03-19.36.33:481][340]LogSavePackage: Save=40.827736ms
+[2016.04.03-19.36.33:481][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/vidrio_edif743CCF8A4C74BAAFED7DAE9A7B62DB1F.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/vidrio_edif.uasset'
+[2016.04.03-19.36.33:495][340]LogSavePackage: Total save time: 55.882752ms
+[2016.04.03-19.36.33:495][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/vidrio_edif.uasset
+[2016.04.03-19.36.33:606][340]LogSavePackage: Save=45.118561ms
+[2016.04.03-19.36.33:606][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/5a5733A19E49A73081ECC3B0BA4C1C725F.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/5a.uasset'
+[2016.04.03-19.36.33:624][340]LogSavePackage: Total save time: 64.212035ms
+[2016.04.03-19.36.33:624][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/5a.uasset
+[2016.04.03-19.36.33:637][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/ambient/5a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/5a.uasset" SILENT=true
+[2016.04.03-19.36.33:859][340]LogSavePackage: Save=6.667774ms
+[2016.04.03-19.36.33:859][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/5a165E0FEC4E1CF22CB52B518CF4BF9F7D.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/5a.uasset'
+[2016.04.03-19.36.33:878][340]LogSavePackage: Total save time: 236.648001ms
+[2016.04.03-19.36.33:878][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/5a.uasset
+[2016.04.03-19.36.33:982][340]LogSavePackage: Save=38.443542ms
+[2016.04.03-19.36.33:982][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/6a466609E2458F9DABDD778D838384609F.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/6a.uasset'
+[2016.04.03-19.36.34:000][340]LogSavePackage: Total save time: 57.310008ms
+[2016.04.03-19.36.34:000][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/6a.uasset
+[2016.04.03-19.36.34:014][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/ambient/6a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/6a.uasset" SILENT=true
+[2016.04.03-19.36.34:250][340]LogSavePackage: Save=6.737808ms
+[2016.04.03-19.36.34:250][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/6a33DFE82E4E5E95F74992C19E37BDDAEC.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/6a.uasset'
+[2016.04.03-19.36.34:269][340]LogSavePackage: Total save time: 250.609633ms
+[2016.04.03-19.36.34:269][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/6a.uasset
+[2016.04.03-19.36.34:384][340]LogSavePackage: Save=43.977482ms
+[2016.04.03-19.36.34:384][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/7aC471E416432E7AB48CC89CB1267467B1.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/7a.uasset'
+[2016.04.03-19.36.34:398][340]LogSavePackage: Total save time: 59.505835ms
+[2016.04.03-19.36.34:398][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/7a.uasset
+[2016.04.03-19.36.34:413][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/ambient/7a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/7a.uasset" SILENT=true
+[2016.04.03-19.36.34:684][340]LogSavePackage: Save=8.430713ms
+[2016.04.03-19.36.34:684][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/7a1D2562804BFCEA1681216B924AD93755.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/7a.uasset'
+[2016.04.03-19.36.34:699][340]LogSavePackage: Total save time: 278.909031ms
+[2016.04.03-19.36.34:700][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/7a.uasset
+[2016.04.03-19.36.34:813][340]LogSavePackage: Save=41.692299ms
+[2016.04.03-19.36.34:813][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/8aC4BA9B6A4CD9ABBFBE8C2CB7B5AAAA9C.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/8a.uasset'
+[2016.04.03-19.36.34:826][340]LogSavePackage: Total save time: 55.502996ms
+[2016.04.03-19.36.34:826][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/8a.uasset
+[2016.04.03-19.36.34:842][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/ambient/8a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/8a.uasset" SILENT=true
+[2016.04.03-19.36.35:103][340]LogSavePackage: Save=8.310567ms
+[2016.04.03-19.36.35:103][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/8a78C7A8C44E0F55F2ADFCFD95BB8A10EA.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/8a.uasset'
+[2016.04.03-19.36.35:124][340]LogSavePackage: Total save time: 277.718443ms
+[2016.04.03-19.36.35:125][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/8a.uasset
+[2016.04.03-19.36.35:247][340]LogSavePackage: Save=48.205517ms
+[2016.04.03-19.36.35:248][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/9a41C1BA924A4817049151D29BAB237D5A.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/9a.uasset'
+[2016.04.03-19.36.35:263][340]LogSavePackage: Total save time: 65.284893ms
+[2016.04.03-19.36.35:263][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/9a.uasset
+[2016.04.03-19.36.35:280][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/ambient/9a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/9a.uasset" SILENT=true
+[2016.04.03-19.36.35:561][340]LogSavePackage: Save=7.025191ms
+[2016.04.03-19.36.35:561][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/9a9608B5D94EEC79A81F4BF185FDCD2DE6.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/9a.uasset'
+[2016.04.03-19.36.35:577][340]LogSavePackage: Total save time: 290.766604ms
+[2016.04.03-19.36.35:577][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/9a.uasset
+[2016.04.03-19.36.35:696][340]LogSavePackage: Save=45.028603ms
+[2016.04.03-19.36.35:696][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/piso_a08A895C243E4090B6C328B8FFA361685.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/piso_a.uasset'
+[2016.04.03-19.36.35:710][340]LogSavePackage: Total save time: 60.092069ms
+[2016.04.03-19.36.35:710][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/piso_a.uasset
+[2016.04.03-19.36.35:728][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/ambient/piso_a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/piso_a.uasset" SILENT=true
+[2016.04.03-19.36.36:001][340]LogSavePackage: Save=8.131858ms
+[2016.04.03-19.36.36:001][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/piso_a38D40DC0460BD2F04AB3C39C951B2FE0.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/piso_a.uasset'
+[2016.04.03-19.36.36:025][340]LogSavePackage: Total save time: 290.582467ms
+[2016.04.03-19.36.36:025][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/piso_a.uasset
+[2016.04.03-19.36.36:160][340]LogSavePackage: Save=58.444447ms
+[2016.04.03-19.36.36:160][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/11_1A73379AF46AF216697618589FE03D3F7.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/11_1.uasset'
+[2016.04.03-19.36.36:176][340]LogSavePackage: Total save time: 75.488809ms
+[2016.04.03-19.36.36:176][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/11_1.uasset
+[2016.04.03-19.36.36:193][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/ambient/11_1" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/11_1.uasset" SILENT=true
+[2016.04.03-19.36.36:497][340]LogSavePackage: Save=7.043303ms
+[2016.04.03-19.36.36:497][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/11_15F3096874333C7D32775B2B35651F69E.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/11_1.uasset'
+[2016.04.03-19.36.36:511][340]LogSavePackage: Total save time: 311.588608ms
+[2016.04.03-19.36.36:511][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/11_1.uasset
+[2016.04.03-19.36.36:619][340]LogSavePackage: Save=40.685253ms
+[2016.04.03-19.36.36:619][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/11_29DEB9D1443B664C685BAA08758283E32.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/11_2.uasset'
+[2016.04.03-19.36.36:638][340]LogSavePackage: Total save time: 60.812339ms
+[2016.04.03-19.36.36:638][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/11_2.uasset
+[2016.04.03-19.36.36:653][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/ambient/11_2" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/11_2.uasset" SILENT=true
+[2016.04.03-19.36.36:885][340]LogSavePackage: Save=8.181365ms
+[2016.04.03-19.36.36:885][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/11_24B1F518D481F7273E4F712BF0C7AC1DD.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/11_2.uasset'
+[2016.04.03-19.36.36:899][340]LogSavePackage: Total save time: 240.226403ms
+[2016.04.03-19.36.36:899][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/11_2.uasset
+[2016.04.03-19.36.37:002][340]LogSavePackage: Save=38.858921ms
+[2016.04.03-19.36.37:002][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/11_3264FCCEB46337E722FC007BA68D16B7D.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/11_3.uasset'
+[2016.04.03-19.36.37:015][340]LogSavePackage: Total save time: 53.174347ms
+[2016.04.03-19.36.37:015][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/11_3.uasset
+[2016.04.03-19.36.37:028][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/ambient/11_3" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/11_3.uasset" SILENT=true
+[2016.04.03-19.36.37:267][340]LogSavePackage: Save=7.394080ms
+[2016.04.03-19.36.37:267][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/11_3278B763442739AE1D84E87AA04DEFAB1.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/11_3.uasset'
+[2016.04.03-19.36.37:282][340]LogSavePackage: Total save time: 248.703606ms
+[2016.04.03-19.36.37:282][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/11_3.uasset
+[2016.04.03-19.36.37:392][340]LogSavePackage: Save=44.083740ms
+[2016.04.03-19.36.37:392][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/12a747A7262443B903332E9F78B72FB2903.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/12a.uasset'
+[2016.04.03-19.36.37:405][340]LogSavePackage: Total save time: 58.536217ms
+[2016.04.03-19.36.37:406][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/12a.uasset
+[2016.04.03-19.36.37:420][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/ambient/12a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/12a.uasset" SILENT=true
+[2016.04.03-19.36.37:651][340]LogSavePackage: Save=7.449625ms
+[2016.04.03-19.36.37:651][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/12a009E7658472441DBBBB4CD96DC097C65.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/12a.uasset'
+[2016.04.03-19.36.37:666][340]LogSavePackage: Total save time: 240.953315ms
+[2016.04.03-19.36.37:666][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/12a.uasset
+[2016.04.03-19.36.37:770][340]LogSavePackage: Save=39.304485ms
+[2016.04.03-19.36.37:770][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/13aB9A85F7E4208AF810C3BDBA9D10BCA6C.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/13a.uasset'
+[2016.04.03-19.36.37:788][340]LogSavePackage: Total save time: 57.713311ms
+[2016.04.03-19.36.37:788][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/13a.uasset
+[2016.04.03-19.36.37:803][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/ambient/13a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/13a.uasset" SILENT=true
+[2016.04.03-19.36.38:034][340]LogSavePackage: Save=8.424675ms
+[2016.04.03-19.36.38:034][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/13a275B5984485D6A53342D0F8BB1518BFC.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/13a.uasset'
+[2016.04.03-19.36.38:048][340]LogSavePackage: Total save time: 240.036223ms
+[2016.04.03-19.36.38:048][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/13a.uasset
+[2016.04.03-19.36.38:149][340]LogSavePackage: Save=40.076073ms
+[2016.04.03-19.36.38:150][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/14a6A140A56432AC3A48977E19D51A16939.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/14a.uasset'
+[2016.04.03-19.36.38:167][340]LogSavePackage: Total save time: 58.745112ms
+[2016.04.03-19.36.38:167][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/14a.uasset
+[2016.04.03-19.36.38:183][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/ambient/14a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/14a.uasset" SILENT=true
+[2016.04.03-19.36.38:419][340]LogSavePackage: Save=7.651880ms
+[2016.04.03-19.36.38:419][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/14aCD290DEF4B15C73A0587C2BD16D1C952.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/14a.uasset'
+[2016.04.03-19.36.38:434][340]LogSavePackage: Total save time: 245.411377ms
+[2016.04.03-19.36.38:434][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/ambient/14a.uasset
+[2016.04.03-19.36.38:551][340]LogSavePackage: Save=52.180580ms
+[2016.04.03-19.36.38:551][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/26a4C95511D4EB24ED306B2939A6E3D2B9F.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/26a.uasset'
+[2016.04.03-19.36.38:570][340]LogSavePackage: Total save time: 71.659848ms
+[2016.04.03-19.36.38:570][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/ambient/26a.uasset
+[2016.04.03-19.36.38:668][340]LogSavePackage: Save=36.388992ms
+[2016.04.03-19.36.38:668][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/agarre_tubo_extra9BD8431B47668028F75876ABD4B338B9.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/agarre_tubo_extra.uasset'
+[2016.04.03-19.36.38:681][340]LogSavePackage: Total save time: 49.940079ms
+[2016.04.03-19.36.38:681][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/agarre_tubo_extra.uasset
+[2016.04.03-19.36.38:782][340]LogSavePackage: Save=36.722866ms
+[2016.04.03-19.36.38:782][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/aire_acondicionado1F402282E40A27E33FB42A1A008E48DDA.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/aire_acondicionado1.uasset'
+[2016.04.03-19.36.38:795][340]LogSavePackage: Total save time: 50.820339ms
+[2016.04.03-19.36.38:795][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/aire_acondicionado1.uasset
+[2016.04.03-19.36.39:045][340]LogSavePackage: Save=8.891371ms
+[2016.04.03-19.36.39:045][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/aire_acondicionado1097527294B1F5E5A7FB461BA47D46191.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/aire_acondicionado1.uasset'
+[2016.04.03-19.36.39:060][340]LogSavePackage: Total save time: 247.267898ms
+[2016.04.03-19.36.39:060][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/aire_acondicionado1.uasset
+[2016.04.03-19.36.39:185][340]LogSavePackage: Save=40.044075ms
+[2016.04.03-19.36.39:185][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/aire_acondicionado2400E442F43E5C79EF4767D91C7406970.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/aire_acondicionado2.uasset'
+[2016.04.03-19.36.39:197][340]LogSavePackage: Total save time: 53.011939ms
+[2016.04.03-19.36.39:197][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/aire_acondicionado2.uasset
+[2016.04.03-19.36.39:442][340]LogSavePackage: Save=7.141110ms
+[2016.04.03-19.36.39:442][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/aire_acondicionado215E5AB064AA616B5DA96D890E3BB7D5F.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/aire_acondicionado2.uasset'
+[2016.04.03-19.36.39:456][340]LogSavePackage: Total save time: 239.835780ms
+[2016.04.03-19.36.39:456][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/aire_acondicionado2.uasset
+[2016.04.03-19.36.39:559][340]LogSavePackage: Save=38.965179ms
+[2016.04.03-19.36.39:559][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/barrera1B3D43475482D32C3A62DD896D58CED0E.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/barrera1.uasset'
+[2016.04.03-19.36.39:578][340]LogSavePackage: Total save time: 59.462968ms
+[2016.04.03-19.36.39:578][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/barrera1.uasset
+[2016.04.03-19.36.39:592][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/props/barrera1" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/barrera1.uasset" SILENT=true
+[2016.04.03-19.36.39:844][340]LogSavePackage: Save=8.305134ms
+[2016.04.03-19.36.39:844][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/barrera1186675BA481898F5720EBB8C6ADE2145.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/barrera1.uasset'
+[2016.04.03-19.36.39:860][340]LogSavePackage: Total save time: 261.446275ms
+[2016.04.03-19.36.39:860][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/barrera1.uasset
+[2016.04.03-19.36.39:975][340]LogSavePackage: Save=42.587658ms
+[2016.04.03-19.36.39:975][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/barrera29457A5984B87F1B7FA3E76B76A97DBA0.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/barrera2.uasset'
+[2016.04.03-19.36.39:991][340]LogSavePackage: Total save time: 59.499193ms
+[2016.04.03-19.36.39:991][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/barrera2.uasset
+[2016.04.03-19.36.40:006][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/props/barrera2" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/barrera2.uasset" SILENT=true
+[2016.04.03-19.36.40:284][340]LogSavePackage: Save=7.921754ms
+[2016.04.03-19.36.40:284][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/barrera266A230EA4559A4249E8ADEAB71E46EAE.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/barrera2.uasset'
+[2016.04.03-19.36.40:298][340]LogSavePackage: Total save time: 284.279354ms
+[2016.04.03-19.36.40:298][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/barrera2.uasset
+[2016.04.03-19.36.40:415][340]LogSavePackage: Save=51.657131ms
+[2016.04.03-19.36.40:416][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/base_aire11736B6754D9DEBFFDF1BA989553C84B5.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/base_aire1.uasset'
+[2016.04.03-19.36.40:430][340]LogSavePackage: Total save time: 66.700678ms
+[2016.04.03-19.36.40:430][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/base_aire1.uasset
+[2016.04.03-19.36.40:726][340]LogSavePackage: Save=9.042912ms
+[2016.04.03-19.36.40:726][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/base_aire17469E21049FF0D54D507EE96BE78D4F5.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/base_aire1.uasset'
+[2016.04.03-19.36.40:743][340]LogSavePackage: Total save time: 288.566556ms
+[2016.04.03-19.36.40:743][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/base_aire1.uasset
+[2016.04.03-19.36.40:879][340]LogSavePackage: Save=59.962265ms
+[2016.04.03-19.36.40:879][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/base_aire24DE05D2D46A7583CD127109526D81176.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/base_aire2.uasset'
+[2016.04.03-19.36.40:895][340]LogSavePackage: Total save time: 77.322990ms
+[2016.04.03-19.36.40:895][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/base_aire2.uasset
+[2016.04.03-19.36.41:209][340]LogSavePackage: Save=8.817110ms
+[2016.04.03-19.36.41:210][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/base_aire265D955D54FF7D81314EDDB9553187E7E.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/base_aire2.uasset'
+[2016.04.03-19.36.41:229][340]LogSavePackage: Total save time: 310.762681ms
+[2016.04.03-19.36.41:229][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/base_aire2.uasset
+[2016.04.03-19.36.41:342][340]LogSavePackage: Save=38.376526ms
+[2016.04.03-19.36.41:342][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/caja1EE8424DC416479A2EA54E6A56A002A26.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/caja1.uasset'
+[2016.04.03-19.36.41:356][340]LogSavePackage: Total save time: 53.716511ms
+[2016.04.03-19.36.41:356][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/caja1.uasset
+[2016.04.03-19.36.41:370][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/props/caja1" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/caja1.uasset" SILENT=true
+[2016.04.03-19.36.41:658][340]LogSavePackage: Save=8.302718ms
+[2016.04.03-19.36.41:659][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/caja1A22CD332427F343FC6CC28BCE3956465.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/caja1.uasset'
+[2016.04.03-19.36.41:677][340]LogSavePackage: Total save time: 301.936515ms
+[2016.04.03-19.36.41:677][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/caja1.uasset
+[2016.04.03-19.36.41:806][340]LogSavePackage: Save=49.400330ms
+[2016.04.03-19.36.41:807][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/caja2ABA5046C440476A2C2842EA8F76B0226.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/caja2.uasset'
+[2016.04.03-19.36.41:822][340]LogSavePackage: Total save time: 65.517940ms
+[2016.04.03-19.36.41:822][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/caja2.uasset
+[2016.04.03-19.36.41:837][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/props/caja2" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/caja2.uasset" SILENT=true
+[2016.04.03-19.36.42:121][340]LogSavePackage: Save=7.808854ms
+[2016.04.03-19.36.42:121][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/caja29D7C57974FAA118E197FFE921D88E602.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/caja2.uasset'
+[2016.04.03-19.36.42:137][340]LogSavePackage: Total save time: 293.473806ms
+[2016.04.03-19.36.42:137][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/caja2.uasset
+[2016.04.03-19.36.42:240][340]LogSavePackage: Save=37.367668ms
+[2016.04.03-19.36.42:240][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/caja32675FB814F7E0247356A76B9474E926A.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/caja3.uasset'
+[2016.04.03-19.36.42:253][340]LogSavePackage: Total save time: 51.186815ms
+[2016.04.03-19.36.42:253][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/caja3.uasset
+[2016.04.03-19.36.42:267][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/props/caja3" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/caja3.uasset" SILENT=true
+[2016.04.03-19.36.42:506][340]LogSavePackage: Save=7.720103ms
+[2016.04.03-19.36.42:506][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/caja36415F9CE4079F2E1FB5E2E919B6B4552.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/caja3.uasset'
+[2016.04.03-19.36.42:520][340]LogSavePackage: Total save time: 247.014325ms
+[2016.04.03-19.36.42:521][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/caja3.uasset
+[2016.04.03-19.36.42:624][340]LogSavePackage: Save=35.598690ms
+[2016.04.03-19.36.42:624][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/caja_chica9431C9734B69E9911755B18ED16CF4F6.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/caja_chica.uasset'
+[2016.04.03-19.36.42:637][340]LogSavePackage: Total save time: 49.828988ms
+[2016.04.03-19.36.42:637][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/caja_chica.uasset
+[2016.04.03-19.36.42:886][340]LogSavePackage: Save=8.060616ms
+[2016.04.03-19.36.42:886][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/caja_chica5005389B4248EBCA25D909AEF0A848F2.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/caja_chica.uasset'
+[2016.04.03-19.36.42:901][340]LogSavePackage: Total save time: 246.444993ms
+[2016.04.03-19.36.42:901][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/caja_chica.uasset
+[2016.04.03-19.36.43:009][340]LogSavePackage: Save=41.950100ms
+[2016.04.03-19.36.43:009][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/caja_de_energiaCAD655154D1F9B12BE314B8554A36251.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/caja_de_energia.uasset'
+[2016.04.03-19.36.43:023][340]LogSavePackage: Total save time: 56.631401ms
+[2016.04.03-19.36.43:023][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/caja_de_energia.uasset
+[2016.04.03-19.36.43:275][340]LogSavePackage: Save=8.974688ms
+[2016.04.03-19.36.43:275][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/caja_de_energia07D89CAB47F3D1DDAFCAF5A7AC9B5496.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/caja_de_energia.uasset'
+[2016.04.03-19.36.43:287][340]LogSavePackage: Total save time: 247.357856ms
+[2016.04.03-19.36.43:287][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/caja_de_energia.uasset
+[2016.04.03-19.36.43:392][340]LogSavePackage: Save=40.218555ms
+[2016.04.03-19.36.43:392][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/caja_grandeF90B8DAA4A5C8B5BE307B3B49C3A6B5A.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/caja_grande.uasset'
+[2016.04.03-19.36.43:405][340]LogSavePackage: Total save time: 54.223053ms
+[2016.04.03-19.36.43:405][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/caja_grande.uasset
+[2016.04.03-19.36.43:654][340]LogSavePackage: Save=7.109716ms
+[2016.04.03-19.36.43:654][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/caja_grande3858D0624FBAC488739A3BB2FEB39A1E.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/caja_grande.uasset'
+[2016.04.03-19.36.43:667][340]LogSavePackage: Total save time: 241.711017ms
+[2016.04.03-19.36.43:667][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/caja_grande.uasset
+[2016.04.03-19.36.43:773][340]LogSavePackage: Save=37.603729ms
+[2016.04.03-19.36.43:773][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/caja_pizza7592199B4BCAA33EA9B4B3968066219A.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/caja_pizza.uasset'
+[2016.04.03-19.36.43:787][340]LogSavePackage: Total save time: 52.181184ms
+[2016.04.03-19.36.43:787][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/caja_pizza.uasset
+[2016.04.03-19.36.44:038][340]LogSavePackage: Save=6.793353ms
+[2016.04.03-19.36.44:038][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/caja_pizzaF4B21F7043559BC81FDD6E873EFEC71C.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/caja_pizza.uasset'
+[2016.04.03-19.36.44:052][340]LogSavePackage: Total save time: 246.580832ms
+[2016.04.03-19.36.44:052][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/caja_pizza.uasset
+[2016.04.03-19.36.44:159][340]LogSavePackage: Save=39.831554ms
+[2016.04.03-19.36.44:159][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/caja_pizza2074BADC34764EC266802578FAA0E63DD.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/caja_pizza2.uasset'
+[2016.04.03-19.36.44:170][340]LogSavePackage: Total save time: 51.841274ms
+[2016.04.03-19.36.44:170][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/caja_pizza2.uasset
+[2016.04.03-19.36.44:280][340]LogSavePackage: Save=42.515812ms
+[2016.04.03-19.36.44:280][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/emergency_ladderF5F553C04DE1C11733D87B886E905D74.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/emergency_ladder.uasset'
+[2016.04.03-19.36.44:300][340]LogSavePackage: Total save time: 63.762244ms
+[2016.04.03-19.36.44:300][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/emergency_ladder.uasset
+[2016.04.03-19.36.44:548][340]LogSavePackage: Save=8.322039ms
+[2016.04.03-19.36.44:548][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/emergency_ladder82ADB15E41030EF5BD442397D249B57F.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/emergency_ladder.uasset'
+[2016.04.03-19.36.44:563][340]LogSavePackage: Total save time: 244.514812ms
+[2016.04.03-19.36.44:563][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/emergency_ladder.uasset
+[2016.04.03-19.36.44:688][340]LogSavePackage: Save=58.849560ms
+[2016.04.03-19.36.44:688][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/emergency_ladder_base553469D2464A4BEDE2C5BCA0494561CD.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/emergency_ladder_base.uasset'
+[2016.04.03-19.36.44:701][340]LogSavePackage: Total save time: 72.964545ms
+[2016.04.03-19.36.44:701][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/emergency_ladder_base.uasset
+[2016.04.03-19.36.44:954][340]LogSavePackage: Save=8.284606ms
+[2016.04.03-19.36.44:954][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/emergency_ladder_base5E8E05F24FFAE06A014B8FBB7B65DB4E.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/emergency_ladder_base.uasset'
+[2016.04.03-19.36.44:969][340]LogSavePackage: Total save time: 250.429112ms
+[2016.04.03-19.36.44:969][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/emergency_ladder_base.uasset
+[2016.04.03-19.36.45:076][340]LogSavePackage: Save=42.320198ms
+[2016.04.03-19.36.45:076][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/faro_grande361599C3447618C6D542568BCE40F40E.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/faro_grande.uasset'
+[2016.04.03-19.36.45:089][340]LogSavePackage: Total save time: 56.680907ms
+[2016.04.03-19.36.45:089][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/faro_grande.uasset
+[2016.04.03-19.36.45:198][340]LogSavePackage: Save=42.218163ms
+[2016.04.03-19.36.45:198][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/faro_pared4796574A4058B9A0BD9207BCEDDAE428.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/faro_pared.uasset'
+[2016.04.03-19.36.45:215][340]LogSavePackage: Total save time: 60.815964ms
+[2016.04.03-19.36.45:215][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/faro_pared.uasset
+[2016.04.03-19.36.45:517][340]LogSavePackage: Save=8.213967ms
+[2016.04.03-19.36.45:517][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/faro_paredBC7B87C2443E87D59711BAB91B729D26.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/faro_pared.uasset'
+[2016.04.03-19.36.45:534][340]LogSavePackage: Total save time: 299.764238ms
+[2016.04.03-19.36.45:534][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/faro_pared.uasset
+[2016.04.03-19.36.45:655][340]LogSavePackage: Save=46.398502ms
+[2016.04.03-19.36.45:655][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/foco9FB9E20B4C1FF3236BB575A14EED0B40.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/foco.uasset'
+[2016.04.03-19.36.45:670][340]LogSavePackage: Total save time: 61.647926ms
+[2016.04.03-19.36.45:670][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/foco.uasset
+[2016.04.03-19.36.45:786][340]LogSavePackage: Save=40.752266ms
+[2016.04.03-19.36.45:786][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/lambert10AD57A914721FF00E9BF66951F19A2D8.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/lambert1.uasset'
+[2016.04.03-19.36.45:805][340]LogSavePackage: Total save time: 60.111389ms
+[2016.04.03-19.36.45:805][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/lambert1.uasset
+[2016.04.03-19.36.45:919][340]LogSavePackage: Save=45.983730ms
+[2016.04.03-19.36.45:919][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/lampara_pared90597BD345D81C329C476D849A5BB5C6.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/lampara_pared.uasset'
+[2016.04.03-19.36.45:941][340]LogSavePackage: Total save time: 68.689417ms
+[2016.04.03-19.36.45:941][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/lampara_pared.uasset
+[2016.04.03-19.36.46:055][340]LogSavePackage: Save=42.845455ms
+[2016.04.03-19.36.46:055][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/papeles3EDE5ED64AF79DA0AE5CE88FB352D59E.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/papeles.uasset'
+[2016.04.03-19.36.46:071][340]LogSavePackage: Total save time: 59.356708ms
+[2016.04.03-19.36.46:071][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/papeles.uasset
+[2016.04.03-19.36.46:084][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/props/papeles" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/papeles.uasset" SILENT=true
+[2016.04.03-19.36.46:394][340]LogSavePackage: Save=10.193048ms
+[2016.04.03-19.36.46:394][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/papeles666534484C373B0448405B83F36863D6.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/papeles.uasset'
+[2016.04.03-19.36.46:412][340]LogSavePackage: Total save time: 322.704785ms
+[2016.04.03-19.36.46:413][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/papeles.uasset
+[2016.04.03-19.36.46:530][340]LogSavePackage: Save=40.357418ms
+[2016.04.03-19.36.46:530][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/periodico16E8A092349A9486A82B22CBDC8487AB6.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/periodico1.uasset'
+[2016.04.03-19.36.46:545][340]LogSavePackage: Total save time: 57.032283ms
+[2016.04.03-19.36.46:546][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/periodico1.uasset
+[2016.04.03-19.36.46:856][340]LogSavePackage: Save=13.702021ms
+[2016.04.03-19.36.46:856][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/periodico1A9B0B9D148247F8A312FB39C0709FD0F.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/periodico1.uasset'
+[2016.04.03-19.36.46:871][340]LogSavePackage: Total save time: 301.612306ms
+[2016.04.03-19.36.46:871][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/periodico1.uasset
+[2016.04.03-19.36.46:973][340]LogSavePackage: Save=38.479767ms
+[2016.04.03-19.36.46:973][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/periodico2E1EC470B4782CE282A137987B63A9557.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/periodico2.uasset'
+[2016.04.03-19.36.46:991][340]LogSavePackage: Total save time: 56.982175ms
+[2016.04.03-19.36.46:991][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/periodico2.uasset
+[2016.04.03-19.36.47:107][340]LogSavePackage: Save=48.087784ms
+[2016.04.03-19.36.47:107][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/tapa_cajaAEE605484CDB0601A0FC08887127385E.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/tapa_caja.uasset'
+[2016.04.03-19.36.47:128][340]LogSavePackage: Total save time: 70.643138ms
+[2016.04.03-19.36.47:128][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/tapa_caja.uasset
+[2016.04.03-19.36.47:259][340]LogSavePackage: Save=50.866829ms
+[2016.04.03-19.36.47:260][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/transformador1CCCD626440529C9BD0687B9363584024.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/transformador1.uasset'
+[2016.04.03-19.36.47:275][340]LogSavePackage: Total save time: 67.126922ms
+[2016.04.03-19.36.47:275][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/transformador1.uasset
+[2016.04.03-19.36.47:404][340]LogSavePackage: Save=47.807041ms
+[2016.04.03-19.36.47:404][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/transformador2AD650F2B405ADC135C2AEAA33022C9C2.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/transformador2.uasset'
+[2016.04.03-19.36.47:420][340]LogSavePackage: Total save time: 64.524777ms
+[2016.04.03-19.36.47:420][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/transformador2.uasset
+[2016.04.03-19.36.47:728][340]LogSavePackage: Save=6.863387ms
+[2016.04.03-19.36.47:728][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/transformador270894BF1482E25CBC49D6EB7686BECEC.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/transformador2.uasset'
+[2016.04.03-19.36.47:742][340]LogSavePackage: Total save time: 300.726607ms
+[2016.04.03-19.36.47:742][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/transformador2.uasset
+[2016.04.03-19.36.47:849][340]LogSavePackage: Save=42.281555ms
+[2016.04.03-19.36.47:849][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/transformador_grande6B8D1A36480722A4F7B4FEAB14BA9881.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/transformador_grande.uasset'
+[2016.04.03-19.36.47:867][340]LogSavePackage: Total save time: 61.087046ms
+[2016.04.03-19.36.47:867][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/transformador_grande.uasset
+[2016.04.03-19.36.48:121][340]LogSavePackage: Save=8.047334ms
+[2016.04.03-19.36.48:121][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/transformador_grande3110391D400E894367DE9CA5D1EE020D.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/transformador_grande.uasset'
+[2016.04.03-19.36.48:136][340]LogSavePackage: Total save time: 250.210557ms
+[2016.04.03-19.36.48:136][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/transformador_grande.uasset
+[2016.04.03-19.36.48:246][340]LogSavePackage: Save=43.537350ms
+[2016.04.03-19.36.48:246][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/tubo2AABCA923491D0DDAD4714AA2D1BB175F.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/tubo2.uasset'
+[2016.04.03-19.36.48:264][340]LogSavePackage: Total save time: 61.938327ms
+[2016.04.03-19.36.48:264][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/tubo2.uasset
+[2016.04.03-19.36.48:278][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/props/tubo2" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/tubo2.uasset" SILENT=true
+[2016.04.03-19.36.48:517][340]LogSavePackage: Save=7.607203ms
+[2016.04.03-19.36.48:518][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/tubo2656440DD4138BF40EB650B8E82697569.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/tubo2.uasset'
+[2016.04.03-19.36.48:534][340]LogSavePackage: Total save time: 250.700798ms
+[2016.04.03-19.36.48:534][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/tubo2.uasset
+[2016.04.03-19.36.48:639][340]LogSavePackage: Save=42.922131ms
+[2016.04.03-19.36.48:640][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/tubo343497C4640E9DB01523491B45F00EE04.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/tubo3.uasset'
+[2016.04.03-19.36.48:658][340]LogSavePackage: Total save time: 62.368799ms
+[2016.04.03-19.36.48:658][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/tubo3.uasset
+[2016.04.03-19.36.48:764][340]LogSavePackage: Save=40.265648ms
+[2016.04.03-19.36.48:764][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/tubo4D5CD1C2545F4B653614CF1A261B1D1E1.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/tubo4.uasset'
+[2016.04.03-19.36.48:782][340]LogSavePackage: Total save time: 59.287880ms
+[2016.04.03-19.36.48:782][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/tubo4.uasset
+[2016.04.03-19.36.48:890][340]LogSavePackage: Save=43.841637ms
+[2016.04.03-19.36.48:890][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/tubo_aguaEDA48725415858C43929B2BE86FDAA0D.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/tubo_agua.uasset'
+[2016.04.03-19.36.48:908][340]LogSavePackage: Total save time: 62.006548ms
+[2016.04.03-19.36.48:908][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/tubo_agua.uasset
+[2016.04.03-19.36.48:921][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Props/alley/props/tubo_agua" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/tubo_agua.uasset" SILENT=true
+[2016.04.03-19.36.49:168][340]LogSavePackage: Save=7.601769ms
+[2016.04.03-19.36.49:168][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/tubo_aguaA56ADBFB498CA50F5E8A0F8A98D41BAA.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/tubo_agua.uasset'
+[2016.04.03-19.36.49:182][340]LogSavePackage: Total save time: 255.357493ms
+[2016.04.03-19.36.49:182][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Props/alley/props/tubo_agua.uasset
+[2016.04.03-19.36.49:287][340]LogSavePackage: Save=37.657463ms
+[2016.04.03-19.36.49:287][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/tubo_curva725D745546EC43C9AA6B7D84E5DE8502.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/tubo_curva.uasset'
+[2016.04.03-19.36.49:299][340]LogSavePackage: Total save time: 51.165681ms
+[2016.04.03-19.36.49:300][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/tubo_curva.uasset
+[2016.04.03-19.36.49:406][340]LogSavePackage: Save=42.155979ms
+[2016.04.03-19.36.49:406][340]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/tubo_lineal87F709564FF1A28CD9242B946F208301.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/tubo_lineal.uasset'
+[2016.04.03-19.36.49:425][340]LogSavePackage: Total save time: 62.003531ms
+[2016.04.03-19.36.49:425][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Environment/alley/props/tubo_lineal.uasset
+[2016.04.03-19.37.17:274][403]LogAIModule: Creating AISystem for world Menu
+[2016.04.03-19.37.17:402][403]Cmd: MAP LOAD FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Maps/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.03-19.37.17:402][403]LightingResults: New page: Diseñar la iluminación
+[2016.04.03-19.37.17:453][403]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0015 seconds. Added 5 classes and 0 folders.
+[2016.04.03-19.37.17:560][403]LoadErrors: New page: Cargando mapa: Menu.umap
+[2016.04.03-19.37.17:561][403]MapCheck: New page: Revisión del mapa
+[2016.04.03-19.37.17:561][403]LightingResults: New page: Diseñar la iluminación
+[2016.04.03-19.37.17:623][403]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FB261C3420
+[2016.04.03-19.37.17:806][403]LogEditorServer: Finished looking for orphan Actors (0.007 secs)
+[2016.04.03-19.37.17:949][403]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.03-19.37.18:500][403]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 550.814ms to complete.
+[2016.04.03-19.37.18:503][403]LogFileHelpers: Loading map 'Menu' took 1.105
+[2016.04.03-19.37.21:552][549]LogRenderer: Reallocating scene render targets to support 848x416 (Frame:86).
+[2016.04.03-19.39.28:452][316]LogAIModule: Creating AISystem for world Nivel1
+[2016.04.03-19.39.28:489][316]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.P_Fire.ParticleSystemComponent0
+[2016.04.03-19.39.28:490][316]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Smoke.P_Smoke Component=/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.P_Smoke_4.ParticleSystemComponent0
+[2016.04.03-19.39.28:491][316]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Smoke.P_Smoke Component=/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.P_Smoke2_7.ParticleSystemComponent0
+[2016.04.03-19.39.28:491][316]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.P_Fire2_10.ParticleSystemComponent0
+[2016.04.03-19.39.28:492][316]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.P_Fire3_13.ParticleSystemComponent0
+[2016.04.03-19.39.28:770][316]Cmd: MAP LOAD FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Maps/Nivel1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.03-19.39.28:774][316]LightingResults: New page: Diseñar la iluminación
+[2016.04.03-19.39.28:943][316]LoadErrors: New page: Cargando mapa: Nivel1.umap
+[2016.04.03-19.39.28:945][316]MapCheck: New page: Revisión del mapa
+[2016.04.03-19.39.28:945][316]LightingResults: New page: Diseñar la iluminación
+[2016.04.03-19.39.29:016][316]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FB15F7EFC0
+[2016.04.03-19.39.29:212][316]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.03-19.39.29:347][316]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.03-19.39.30:023][316]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 675.274ms to complete.
+[2016.04.03-19.39.30:026][316]LogFileHelpers: Loading map 'Nivel1' took 1.261
+[2016.04.03-19.39.52:192][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Maps/Nivel1" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Maps/Nivel1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.04.03-19.39.54:494][399]LogSavePackage: Save=1968.089600ms
+[2016.04.03-19.39.54:494][399]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/Nivel1F0036E1A441980212EB9D4B7A8299651.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Maps/Nivel1.umap'
+[2016.04.03-19.39.54:505][399]LogSavePackage: Total save time: 2232.646976ms
+[2016.04.03-19.39.54:505][399]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Maps/Nivel1.umap
+[2016.04.03-19.39.56:430][469]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.03-19.39.56:430][469]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.03-19.39.56:919][470]Cmd: QUIT_EDITOR
+[2016.04.03-19.39.57:204][470]LogExit: Preparing to exit.
+[2016.04.03-19.39.57:503][470]LogExit: Editor shut down
+[2016.04.03-19.39.57:505][470]LogExit: Transaction tracking system shut down
+[2016.04.03-19.39.57:509][470]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FB15E09300
+[2016.04.03-19.39.57:509][470]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FB1627D6C0
+[2016.04.03-19.39.57:510][470]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FB3357E660
+[2016.04.03-19.39.57:514][470]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FB3B0C0180
+[2016.04.03-19.39.57:518][470]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FB15EECB80
+[2016.04.03-19.39.58:076][470]LogExit: Object subsystem successfully closed.
+[2016.04.03-19.39.58:105][470]LogD3D11RHI: Shutdown
+[2016.04.03-19.39.58:105][470]LogD3D11RHI: CleanupD3DDevice
+[2016.04.03-19.39.58:385][470]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.04.03-19.39.58:572][470]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (200)
+[2016.04.03-19.39.58:573][470]LogModuleManager: Shutting down and abandoning module StatsViewer (199)
+[2016.04.03-19.39.58:573][470]LogModuleManager: Shutting down and abandoning module CookingStats (198)
+[2016.04.03-19.39.58:573][470]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2016.04.03-19.39.58:573][470]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2016.04.03-19.39.58:573][470]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2016.04.03-19.39.58:573][470]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2016.04.03-19.39.58:573][470]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2016.04.03-19.39.58:579][470]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2016.04.03-19.39.58:579][470]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2016.04.03-19.39.58:581][470]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.04.03-19.39.58:581][470]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.04.03-19.39.58:582][470]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.04.03-19.39.58:582][470]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.04.03-19.39.58:582][470]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.04.03-19.39.58:582][470]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.04.03-19.39.58:583][470]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.04.03-19.39.58:583][470]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.04.03-19.39.58:583][470]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.04.03-19.39.58:583][470]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.04.03-19.39.58:583][470]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.04.03-19.39.58:583][470]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.04.03-19.39.58:584][470]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.04.03-19.39.58:584][470]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.04.03-19.39.58:584][470]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.04.03-19.39.58:584][470]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.04.03-19.39.58:584][470]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.04.03-19.39.58:584][470]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.04.03-19.39.58:841][470]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.04.03-19.39.58:842][470]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.04.03-19.39.58:842][470]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.04.03-19.39.58:842][470]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.04.03-19.39.58:842][470]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.04.03-19.39.58:842][470]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.04.03-19.39.58:842][470]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.04.03-19.39.58:842][470]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.04.03-19.39.58:842][470]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.04.03-19.39.58:842][470]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.04.03-19.39.58:842][470]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.04.03-19.39.58:842][470]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.04.03-19.39.58:842][470]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.04.03-19.39.58:842][470]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.04.03-19.39.58:842][470]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.04.03-19.39.58:842][470]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.04.03-19.39.58:842][470]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.04.03-19.39.58:842][470]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.04.03-19.39.58:843][470]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.04.03-19.39.58:843][470]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.04.03-19.39.58:843][470]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.04.03-19.39.58:843][470]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.04.03-19.39.58:843][470]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.04.03-19.39.58:843][470]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.04.03-19.39.58:843][470]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.04.03-19.39.58:843][470]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.04.03-19.39.58:844][470]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.04.03-19.39.58:844][470]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.04.03-19.39.58:844][470]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.04.03-19.39.58:844][470]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.04.03-19.39.58:844][470]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.04.03-19.39.58:844][470]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.04.03-19.39.58:844][470]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.04.03-19.39.58:844][470]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.04.03-19.39.58:845][470]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.04.03-19.39.58:845][470]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.04.03-19.39.58:845][470]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.04.03-19.39.58:845][470]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.04.03-19.39.58:845][470]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.04.03-19.39.58:845][470]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.04.03-19.39.58:845][470]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.04.03-19.39.58:845][470]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.04.03-19.39.58:845][470]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.04.03-19.39.58:845][470]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.04.03-19.39.58:845][470]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.04.03-19.39.58:845][470]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.04.03-19.39.58:845][470]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.04.03-19.39.58:845][470]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.04.03-19.39.58:845][470]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.04.03-19.39.58:846][470]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.04.03-19.39.59:048][470]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.04.03-19.39.59:048][470]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.04.03-19.39.59:048][470]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.04.03-19.39.59:048][470]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.04.03-19.39.59:048][470]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.04.03-19.39.59:048][470]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.04.03-19.39.59:048][470]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.04.03-19.39.59:048][470]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.04.03-19.39.59:115][470]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.04.03-19.39.59:115][470]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.04.03-19.39.59:115][470]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.04.03-19.39.59:115][470]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.04.03-19.39.59:115][470]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.04.03-19.39.59:115][470]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.04.03-19.39.59:115][470]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.04.03-19.39.59:115][470]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.04.03-19.39.59:116][470]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.04.03-19.39.59:116][470]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.04.03-19.39.59:116][470]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.04.03-19.39.59:116][470]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.04.03-19.39.59:116][470]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.04.03-19.39.59:116][470]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.04.03-19.39.59:116][470]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.04.03-19.39.59:116][470]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.04.03-19.39.59:116][470]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.04.03-19.39.59:116][470]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.04.03-19.39.59:116][470]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.04.03-19.39.59:117][470]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.04.03-19.39.59:117][470]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.04.03-19.39.59:117][470]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.04.03-19.39.59:117][470]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.04.03-19.39.59:117][470]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.04.03-19.39.59:120][470]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.04.03-19.39.59:123][470]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.04.03-19.39.59:339][470]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.04.03-19.39.59:343][470]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.04.03-19.39.59:344][470]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.04.03-19.39.59:445][470]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.04.03-19.39.59:445][470]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.04.03-19.39.59:445][470]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.04.03-19.39.59:456][470]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.04.03-19.39.59:456][470]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.04.03-19.39.59:457][470]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.04.03-19.39.59:457][470]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.04.03-19.39.59:457][470]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.04.03-19.39.59:457][470]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.04.03-19.39.59:457][470]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.04.03-19.39.59:457][470]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.04.03-19.39.59:457][470]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.04.03-19.39.59:457][470]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.04.03-19.39.59:457][470]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.04.03-19.39.59:458][470]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.04.03-19.39.59:458][470]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.04.03-19.39.59:458][470]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.04.03-19.39.59:458][470]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.04.03-19.39.59:458][470]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.04.03-19.39.59:469][470]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.04.03-19.39.59:469][470]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.04.03-19.39.59:469][470]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.04.03-19.39.59:469][470]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.04.03-19.39.59:469][470]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.04.03-19.39.59:469][470]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.04.03-19.39.59:469][470]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.04.03-19.39.59:469][470]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.04.03-19.39.59:469][470]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.04.03-19.39.59:469][470]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.04.03-19.39.59:485][470]LogDerivedDataCache: Shutdown
+[2016.04.03-19.39.59:485][470]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.04.03-19.39.59:485][470]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.04.03-19.39.59:485][470]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.04.03-19.39.59:485][470]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.04.03-19.39.59:485][470]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.04.03-19.39.59:485][470]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.04.03-19.39.59:485][470]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.04.03-19.39.59:485][470]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.04.03-19.39.59:485][470]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.04.03-19.39.59:485][470]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.04.03-19.39.59:485][470]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.04.03-19.39.59:485][470]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.04.03-19.39.59:485][470]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.04.03-19.39.59:485][470]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.04.03-19.39.59:485][470]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.04.03-19.39.59:485][470]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.04.03-19.39.59:485][470]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.04.03-19.39.59:485][470]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.04.03-19.39.59:485][470]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.04.03-19.39.59:485][470]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.04.03-19.39.59:486][470]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.04.03-19.39.59:486][470]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.04.03-19.39.59:486][470]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.04.03-19.39.59:486][470]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.04.03-19.39.59:486][470]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.04.03-19.39.59:486][470]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.04.03-19.39.59:486][470]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.04.03-19.39.59:486][470]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.04.03-19.39.59:486][470]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.04.03-19.39.59:486][470]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.04.03-19.39.59:486][470]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.04.03-19.39.59:486][470]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.04.03-19.39.59:486][470]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.04.03-19.39.59:486][470]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.04.03-19.39.59:486][470]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.04.03-19.39.59:486][470]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.04.03-19.39.59:486][470]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.04.03-19.40.01:490][470]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.04.03-19.40.01:490][470]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.04.03-19.40.01:490][470]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.04.03-19.40.01:490][470]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.04.03-19.40.01:491][470]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.04.03-19.40.01:491][470]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.04.03-19.40.01:491][470]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.04.03-19.40.01:493][470]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.04.03-19.40.01:493][470]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.04.03-19.40.01:493][470]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.04.03-19.40.01:493][470]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.04.03-19.40.01:493][470]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.04.03-19.40.01:494][470]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.04.03-19.40.01:494][470]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.04.03-19.40.01:494][470]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.04.03-19.40.01:494][470]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.04.03-19.40.01:494][470]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.04.03-19.40.01:497][470]LogExit: Exiting.
+[2016.04.03-19.40.01:590][470]Log file closed, 04/03/16 14:40:01

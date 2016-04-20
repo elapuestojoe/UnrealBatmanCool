@@ -1,0 +1,607 @@
+﻿[2016.04.16-01.53.39:684][  0]Log file open, 04/15/16 20:53:39
+[2016.04.16-01.53.39:684][  0]LogInit:Display: Running engine for game: ProyectoUE2
+[2016.04.16-01.53.39:684][  0]LogPlatformFile: Not using cached read wrapper
+[2016.04.16-01.53.39:684][  0]LogInit:Display: RandInit(636863058) SRandInit(636863059).
+[2016.04.16-01.53.39:684][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2016.04.16-01.53.39:684][  0]LogStats: Stats thread started at 0.096228
+[2016.04.16-01.53.39:684][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.16-01.53.39:684][  0]LogInit: API Version: 2758231
+[2016.04.16-01.53.39:685][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.04.16-01.53.39:685][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.04.16-01.53.39:685][  0]LogInit: Build Configuration: Development
+[2016.04.16-01.53.39:685][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.04.16-01.53.39:685][  0]LogInit: Command line:  
+[2016.04.16-01.53.39:685][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.04.16-01.53.39:685][  0]LogInit: Rocket: 1
+[2016.04.16-01.53.39:734][  0]LogInit: Using libcurl 7.41.0
+[2016.04.16-01.53.39:734][  0]LogInit:  - built for x86_64-pc-win32
+[2016.04.16-01.53.39:734][  0]LogInit:  - supports SSL with WinSSL
+[2016.04.16-01.53.39:734][  0]LogInit:  - other features:
+[2016.04.16-01.53.39:734][  0]LogInit:      CURL_VERSION_SSL
+[2016.04.16-01.53.39:734][  0]LogInit:      CURL_VERSION_IPV6
+[2016.04.16-01.53.39:734][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.04.16-01.53.39:734][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.04.16-01.53.39:734][  0]LogInit:      CURL_VERSION_IDN
+[2016.04.16-01.53.39:734][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.04.16-01.53.39:734][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.04.16-01.53.39:734][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.04.16-01.53.39:734][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.04.16-01.53.39:734][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.04.16-01.53.39:753][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.04.16-01.53.39:764][  0]LogInit: Object subsystem initialized
+[2016.04.16-01.53.39:765][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.16-01.53.39:765][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.16-01.53.39:810][  0]LogInit: Computer: ACER
+[2016.04.16-01.53.39:810][  0]LogInit: User: MieL
+[2016.04.16-01.53.39:810][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.04.16-01.53.39:810][  0]LogInit: High frequency timer resolution =1.656323 MHz
+[2016.04.16-01.53.39:810][  0]LogMemory: Memory total: Physical=5.9GB (6GB approx)
+[2016.04.16-01.53.39:810][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.16-01.53.39:811][  0]LogMemory: Process Physical Memory: 54.64 MB used, 54.64 MB peak
+[2016.04.16-01.53.39:811][  0]LogMemory: Process Virtual Memory: 55.36 MB used, 55.36 MB peak
+[2016.04.16-01.53.39:811][  0]LogMemory: Physical Memory: 3335.66 MB used, 6024.27 MB total
+[2016.04.16-01.53.39:811][  0]LogMemory: Virtual Memory: 358.65 MB used, 134217728.00 MB total
+[2016.04.16-01.53.40:085][  0]LogTextLocalizationManager: No specific translations for ('es-MX') exist, so ('es') translations will be used.
+[2016.04.16-01.53.40:874][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2016.04.16-01.53.40:874][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2016.04.16-01.53.40:877][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.04.16-01.53.40:877][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.04.16-01.53.40:878][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.04.16-01.53.40:887][  0]LogD3D11RHI: !Direct3DDevice
+[2016.04.16-01.53.40:887][  0]LogRHI: Texture pool is 638 MB (70% of 912 MB)
+[2016.04.16-01.53.40:901][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.16-01.53.40:910][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Intermediate/Shaders/WorkingDirectory/12188/).
+[2016.04.16-01.53.40:911][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/41B13B8647872AB1A24183A11B5CE51A/'.
+[2016.04.16-01.53.40:911][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.16-01.53.46:558][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.16-01.53.46:644][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.16-01.53.46:656][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.16-01.53.46:666][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.16-01.53.46:677][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.16-01.53.46:686][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.16-01.53.46:693][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.16-01.53.46:699][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.16-01.53.46:708][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.16-01.53.46:737][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.16-01.53.46:745][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.16-01.53.46:760][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.16-01.53.46:760][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.16-01.53.46:762][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.16-01.53.46:788][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.16-01.53.46:794][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.16-01.53.46:801][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.16-01.53.46:809][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.16-01.53.46:809][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.16-01.53.47:177][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.16-01.53.48:882][  0]LogDerivedDataCache: Loaded boot cache 1.70s 41MB C:/Users/User/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.16-01.53.48:882][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.04.16-01.53.48:882][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.16-01.53.48:882][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.16-01.53.48:882][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.16-01.53.48:882][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.16-01.53.49:026][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.16-01.53.49:039][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.16-01.53.50:391][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.16-01.53.50:396][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.04.16-01.53.50:696][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.16-01.53.50:696][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.16-01.53.52:576][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.16-01.54.17:391][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.16-01.54.17:860][  0]LogAssetRegistry: FAssetRegistry took 0.0117 seconds to start up
+[2016.04.16-01.54.20:307][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.04.16-01.54.20:310][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.04.16-01.54.20:394][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.04.16-01.54.20:456][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.04.16-01.54.21:594][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.04.16-01.54.21:594][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.04.16-01.54.21:782][  0]LogEngine: Initializing Engine...
+[2016.04.16-01.54.21:791][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.16-01.54.21:792][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.16-01.54.23:320][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.16-01.54.23:329][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.16-01.54.23:356][  0]LogInit: FAudioDevice initialized.
+[2016.04.16-01.54.23:395][  0]LogDerivedDataCache: Saved boot cache 0.04s 41MB C:/Users/User/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.16-01.54.23:400][  0]LogInit: Texture streaming: Enabled
+[2016.04.16-01.54.23:417][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.04.16-01.54.23:417][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.16-01.54.23:417][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 7d6e982040bdfa2d37207091dd9f6648|703d63ca085b4982a6f34989b8311170|423990dd-a1b8-4259-9077-6163d5ea4614
+[2016.04.16-01.54.23:417][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.04.16-01.54.23:437][  0]LogInit: Transaction tracking system initialized
+[2016.04.16-01.54.23:520][  0]BlueprintLog: New page: Cargar el editor
+[2016.04.16-01.54.23:892][  0]LocalizationService: Información Localization service is disabled
+[2016.04.16-01.54.25:933][  0]LogLinker:Warning: No puede encontrar el archivo '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2016.04.16-01.54.25:933][  0]LogLinker:Warning: No puede encontrar el archivo '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2016.04.16-01.54.25:933][  0]LogUObjectGlobals:Warning: Error al encontrar el objeto 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2016.04.16-01.54.26:252][  0]LogConsoleResponse:Display: 
+[2016.04.16-01.54.30:170][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.16-01.54.30:569][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/Unreal Projects/ProyectoUE2/Content/' took 0.03s
+[2016.04.16-01.54.30:569][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.04.16-01.54.30:570][  0]Cmd: MAP LOAD FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Maps/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.16-01.54.30:688][  0]LightingResults: New page: Diseñar la iluminación
+[2016.04.16-01.54.30:695][  0]MapCheck: New page: Revisión del mapa
+[2016.04.16-01.54.30:695][  0]LightingResults: New page: Diseñar la iluminación
+[2016.04.16-01.54.30:725][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000070359EB420
+[2016.04.16-01.54.31:932][  0]LogAIModule: Creating AISystem for world Menu
+[2016.04.16-01.54.31:968][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.16-01.54.31:974][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.16-01.54.32:160][  0]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 184.019ms to complete.
+[2016.04.16-01.54.32:160][  0]LogFileHelpers: Loading map 'Menu' took 1.590
+[2016.04.16-01.54.32:301][  0]LogCollectionManager: Loaded 0 collections in 0.004962 seconds
+[2016.04.16-01.54.32:349][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/Collections/' took 0.01s
+[2016.04.16-01.54.32:349][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Developers/MieL/Collections/' took 0.01s
+[2016.04.16-01.54.32:349][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Collections/' took 0.01s
+[2016.04.16-01.54.32:349][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.04.16-01.54.32:361][  0]LogContentBrowser: Native class hierarchy populated in 0.0124 seconds. Added 1893 classes and 338 folders.
+[2016.04.16-01.54.32:375][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.04.16-01.54.32:685][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.04.16-01.54.32:696][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2016.04.16-01.54.32:987][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.16-01.54.32:997][  0]LogUObjectGlobals:Warning: Error al encontrar el objeto 'Class Ninguno.'
+[2016.04.16-01.54.33:025][  0]LogLoad: Full Startup: 54.65 seconds (BP compile: 0.46 seconds)
+[2016.04.16-01.54.33:373][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.16-01.54.33:708][  0]LogContentStreaming: Texture pool size now 200 MB
+[2016.04.16-01.54.34:093][  0]LogRenderer: Reallocating scene render targets to support 1104x564 (Frame:2).
+[2016.04.16-01.54.35:914][  4]LogAssetRegistry: Asset discovery search completed in 18.0655 seconds
+[2016.04.16-01.54.35:914][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.04.16-01.54.35:914][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000027 seconds (updated 0 objects)
+[2016.04.16-01.56.41:921][154]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.16-01.56.42:936][154]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 107 classes and 0 folders.
+[2016.04.16-01.56.54:991][100]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007046AD7880
+[2016.04.16-01.56.54:992][100]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007046AD72E0
+[2016.04.16-01.56.54:995][100]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007049F26160
+[2016.04.16-01.56.54:996][100]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007049F26DE0
+[2016.04.16-01.56.55:012][100]LogMetaData: Removing '/Game/Game/UserInterface/InventorySystem/InventorySystem.InventorySystem_C' ref from Metadata '/Game/Game/UserInterface/InventorySystem.PackageMetaData'
+[2016.04.16-01.56.55:012][100]LogMetaData: Removing '/Game/Game/UserInterface/InventorySystem/InventorySystem.InventorySystem:EventGraph.K2Node_Event_3' ref from Metadata '/Game/Game/UserInterface/InventorySystem.PackageMetaData'
+[2016.04.16-01.56.55:012][100]LogMetaData: Removing '/Game/Game/UserInterface/InventorySystem/InventorySystem.InventorySystem:EventGraph.K2Node_Event_4' ref from Metadata '/Game/Game/UserInterface/InventorySystem.PackageMetaData'
+[2016.04.16-01.56.55:012][100]LogMetaData: Removing '/Game/Game/UserInterface/InventorySystem/InventorySystem.SKEL_InventorySystem_C' ref from Metadata '/Game/Game/UserInterface/InventorySystem.PackageMetaData'
+[2016.04.16-01.56.55:098][100]LogSavePackage: Save=10.444822ms
+[2016.04.16-01.56.55:098][100]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/InventorySystemE88D80F6431000FD1B98BCBA499D04BE.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/UserInterface/InventorySystem/InventorySystem.uasset'
+[2016.04.16-01.56.55:104][100]LogSavePackage: Total save time: 54.999538ms
+[2016.04.16-01.56.55:104][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/UserInterface/InventorySystem/InventorySystem.uasset
+[2016.04.16-01.57.08:401][326]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007040FF18A0
+[2016.04.16-01.57.25:056][901]LogLinker:Warning: No puede encontrar el archivo '/Game/ThirdPersonBP/Blueprints/FontHuD'
+[2016.04.16-01.57.25:056][901]LogLinker:Warning: No puede encontrar el archivo para el activo '/Game/ThirdPersonBP/Blueprints/FontHuD' mientras carga ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/UserInterface/BP_Health.uasset.
+[2016.04.16-01.57.25:056][901]LoadErrors:Error: Error /Game/Game/UserInterface/BP_Health : No puede encontrar el archivo para el activo. /Game/ThirdPersonBP/Blueprints/FontHuD
+[2016.04.16-01.57.25:057][901]LogLinker:Warning: No puede encontrar el archivo '/Game/ThirdPersonBP/Blueprints/FontHuD'
+[2016.04.16-01.57.25:057][901]LogLinker:Warning: No puede encontrar el archivo para el activo '/Game/ThirdPersonBP/Blueprints/FontHuD' mientras carga ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/UserInterface/BP_Health.uasset.
+[2016.04.16-01.57.25:058][901]LogLinker:Warning: No puede encontrar el archivo '/Game/ThirdPersonBP/Blueprints/FontHuD'
+[2016.04.16-01.57.25:058][901]LogLinker:Warning: No puede encontrar el archivo para el activo '/Game/ThirdPersonBP/Blueprints/FontHuD' mientras carga NULL.
+[2016.04.16-01.57.25:059][901]LogLinker:Warning: No puede encontrar el archivo '/Game/ThirdPersonBP/Blueprints/FontHuD'
+[2016.04.16-01.57.25:059][901]LogLinker:Warning: No puede encontrar el archivo para el activo '/Game/ThirdPersonBP/Blueprints/FontHuD' mientras carga NULL.
+[2016.04.16-01.57.25:060][901]LogLinker:Warning: No puede encontrar el archivo '/Game/ThirdPersonBP/Blueprints/FontHuD'
+[2016.04.16-01.57.25:060][901]LoadErrors: Información Error al cargar /Game/ThirdPersonBP/Blueprints/FontHuD.FontHuD Referenciado por TextBlock_0
+[2016.04.16-01.57.25:061][901]LogLinker:Warning: No puede encontrar el archivo para el activo '/Game/ThirdPersonBP/Blueprints/FontHuD' mientras carga NULL.
+[2016.04.16-01.57.25:074][901]LogLinker:Warning: No puede encontrar el archivo '/Game/ThirdPersonBP/Blueprints/FontHuD'
+[2016.04.16-01.57.25:074][901]LogLinker:Warning: No puede encontrar el archivo para el activo '/Game/ThirdPersonBP/Blueprints/FontHuD' mientras carga NULL.
+[2016.04.16-01.58.15:571][657]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2016.04.16-01.58.18:898][932]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Minimap/T_minimap" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Minimap/T_minimap.uasset" SILENT=true
+[2016.04.16-01.58.18:910][932]LogSavePackage: Save=9.615274ms
+[2016.04.16-01.58.18:911][932]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/T_minimap3D0456734D515ABABFD7B1989F2DB2F0.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Minimap/T_minimap.uasset'
+[2016.04.16-01.58.18:917][932]LogSavePackage: Total save time: 16.577683ms
+[2016.04.16-01.58.18:917][932]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Minimap/T_minimap.uasset
+[2016.04.16-01.59.14:896][279]BlueprintLog: New page: Compilar Minimap
+[2016.04.16-01.59.15:021][279]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007049FBBE20
+[2016.04.16-01.59.15:032][279]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007049A26480
+[2016.04.16-01.59.15:032][279]BlueprintEditorCompileResults: Información [0336.65] Compile of Minimap successful! [in 136 ms]
+[2016.04.16-02.00.38:250][229]BlueprintLog: New page: Compilar Minimap
+[2016.04.16-02.00.38:393][229]BlueprintEditorCompileResults: Información [0420.02] Compile of Minimap successful! [in 142 ms]
+[2016.04.16-02.02.06:309][472]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Minimap/Minimap" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Minimap/Minimap.uasset" SILENT=true
+[2016.04.16-02.02.06:344][472]LogSavePackage: Save=31.908632ms
+[2016.04.16-02.02.06:344][472]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/Minimap5615C79043BF7D4F9BAF8CB384071D7F.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Minimap/Minimap.uasset'
+[2016.04.16-02.02.06:350][472]LogSavePackage: Total save time: 38.634371ms
+[2016.04.16-02.02.06:350][472]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Minimap/Minimap.uasset
+[2016.04.16-02.02.14:885][442]LogMetaData: Removing '/Game/Game/Minimap/Minimap_HUD.Minimap_HUD:UserConstructionScript.K2Node_FunctionEntry_126' ref from Metadata '/Game/Game/Minimap/Minimap.PackageMetaData'
+[2016.04.16-02.02.14:885][442]LogMetaData: Removing '/Game/Game/Minimap/Minimap_HUD.SKEL_Minimap_HUD_C' ref from Metadata '/Game/Game/Minimap/Minimap.PackageMetaData'
+[2016.04.16-02.02.14:885][442]LogMetaData: Removing '/Game/Game/Minimap/Minimap_HUD.Minimap_HUD_C' ref from Metadata '/Game/Game/Minimap/Minimap.PackageMetaData'
+[2016.04.16-02.02.14:885][442]LogMetaData: Removing '/Game/Game/Minimap/Minimap_HUD.Minimap_HUD:EventGraph.K2Node_Event_160' ref from Metadata '/Game/Game/Minimap/Minimap.PackageMetaData'
+[2016.04.16-02.02.14:885][442]LogMetaData: Removing '/Game/Game/Minimap/Minimap_HUD.Minimap_HUD:EventGraph.K2Node_Event_161' ref from Metadata '/Game/Game/Minimap/Minimap.PackageMetaData'
+[2016.04.16-02.02.14:885][442]LogMetaData: Removing '/Game/Game/Minimap/Minimap_HUD.Minimap_HUD:EventGraph.K2Node_Event_162' ref from Metadata '/Game/Game/Minimap/Minimap.PackageMetaData'
+[2016.04.16-02.02.14:931][442]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Minimap/Minimap_HUD" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Minimap/Minimap_HUD.uasset" SILENT=true
+[2016.04.16-02.02.14:961][442]LogSavePackage: Save=27.865337ms
+[2016.04.16-02.02.14:961][442]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/Minimap_HUDCF910CA9406917EA66346A94D3BD12B0.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Minimap/Minimap_HUD.uasset'
+[2016.04.16-02.02.14:969][442]LogSavePackage: Total save time: 35.654277ms
+[2016.04.16-02.02.14:969][442]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Minimap/Minimap_HUD.uasset
+[2016.04.16-02.04.33:420][755]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Game/Maps/Menu' took 0.086
+[2016.04.16-02.04.33:518][755]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Game/Minimap/Minimap] ([1] browsable assets)...
+[2016.04.16-02.04.33:518][755]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game/Minimap/Minimap]
+[2016.04.16-02.04.33:543][755]LogSavePackage: Save=19.659813ms
+[2016.04.16-02.04.33:543][755]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/Minimap_Auto1156578F0407DA06C9FB598AABAE3AE86.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/Autosaves/Game/Game/Minimap/Minimap_Auto1.uasset'
+[2016.04.16-02.04.33:547][755]LogSavePackage: Total save time: 23.921058ms
+[2016.04.16-02.04.33:547][755]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/Autosaves/Game/Game/Minimap/Minimap_Auto1.uasset
+[2016.04.16-02.04.33:547][755]LogFileHelpers: Auto-saving content packages took 0.125
+[2016.04.16-02.05.04:436][334]BlueprintLog: New page: Compilar Minimap
+[2016.04.16-02.05.04:572][334]BlueprintEditorCompileResults: Información [0686.20] Compile of Minimap successful! [in 136 ms]
+[2016.04.16-02.05.05:533][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Minimap/Minimap" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Minimap/Minimap.uasset" SILENT=true
+[2016.04.16-02.05.05:553][392]LogSavePackage: Save=16.954422ms
+[2016.04.16-02.05.05:553][392]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/Minimap6613555246EB851D90FE5EBBF7CEE9BC.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Minimap/Minimap.uasset'
+[2016.04.16-02.05.05:560][392]LogSavePackage: Total save time: 24.882223ms
+[2016.04.16-02.05.05:560][392]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Minimap/Minimap.uasset
+[2016.04.16-02.08.25:784][121]BlueprintLog: New page: Compilar Minimap_HUD
+[2016.04.16-02.08.25:915][121]BlueprintEditorCompileResults: Información [0887.54] Compile of Minimap_HUD successful! [in 131 ms]
+[2016.04.16-02.08.26:851][224]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Minimap/Minimap_HUD" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Minimap/Minimap_HUD.uasset" SILENT=true
+[2016.04.16-02.08.27:208][224]LogSavePackage: Save=24.736721ms
+[2016.04.16-02.08.27:208][224]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/Minimap_HUD169F41EE416658F2A2E3FBACCE80E88E.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Minimap/Minimap_HUD.uasset'
+[2016.04.16-02.08.27:216][224]LogSavePackage: Total save time: 362.670202ms
+[2016.04.16-02.08.27:216][224]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Minimap/Minimap_HUD.uasset
+[2016.04.16-02.08.30:752][587]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.04.16-02.08.33:350][862]Cmd: UpdateLandscapeSetup
+[2016.04.16-02.08.36:355][182]Cmd: UpdateLandscapeSetup
+[2016.04.16-02.08.39:156][473]Cmd: UpdateLandscapeSetup
+[2016.04.16-02.09.03:947][287]Cmd: UpdateLandscapeSetup
+[2016.04.16-02.09.10:113][937]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Maps/Menu" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Maps/Menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.04.16-02.09.10:191][937]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000702A4C2E80
+[2016.04.16-02.09.10:467][937]LogSavePackage: Save=117.481918ms
+[2016.04.16-02.09.10:467][937]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/MenuE863E0C24F644693BC4044A6DC57AAA9.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Maps/Menu.umap'
+[2016.04.16-02.09.10:473][937]LogSavePackage: Total save time: 277.865492ms
+[2016.04.16-02.09.10:473][937]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Maps/Menu.umap
+[2016.04.16-02.09.20:969][565]LogAIModule: Creating AISystem for world Nivel1
+[2016.04.16-02.09.20:984][565]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.P_Fire.ParticleSystemComponent0
+[2016.04.16-02.09.20:985][565]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Smoke.P_Smoke Component=/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.P_Smoke_4.ParticleSystemComponent0
+[2016.04.16-02.09.20:985][565]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Smoke.P_Smoke Component=/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.P_Smoke2_7.ParticleSystemComponent0
+[2016.04.16-02.09.20:985][565]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.P_Fire2_10.ParticleSystemComponent0
+[2016.04.16-02.09.20:985][565]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.P_Fire3_13.ParticleSystemComponent0
+[2016.04.16-02.09.21:143][565]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007051A39300
+[2016.04.16-02.09.21:145][565]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000702A461300
+[2016.04.16-02.09.23:605][565]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/My_GameMode" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/My_GameMode.uasset" SILENT=true
+[2016.04.16-02.09.23:625][565]LogSavePackage: Save=16.245020ms
+[2016.04.16-02.09.23:625][565]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/My_GameModeD52482F148FF4FF10ED1E8856E3A4D9A.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/My_GameMode.uasset'
+[2016.04.16-02.09.23:632][565]LogSavePackage: Total save time: 23.596242ms
+[2016.04.16-02.09.23:632][565]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/My_GameMode.uasset
+[2016.04.16-02.09.23:634][565]Cmd: MAP LOAD FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Maps/Nivel1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.16-02.09.23:635][565]LightingResults: New page: Diseñar la iluminación
+[2016.04.16-02.09.23:708][565]LoadErrors: New page: Cargando mapa: Nivel1.umap
+[2016.04.16-02.09.23:708][565]MapCheck: New page: Revisión del mapa
+[2016.04.16-02.09.23:709][565]LightingResults: New page: Diseñar la iluminación
+[2016.04.16-02.09.23:768][565]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000702A555120
+[2016.04.16-02.09.23:891][565]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.16-02.09.23:959][565]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.16-02.09.24:310][565]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 350.007ms to complete.
+[2016.04.16-02.09.24:311][565]LogFileHelpers: Loading map 'Nivel1' took 0.679
+[2016.04.16-02.10.25:119][976]LogRenderer: Reallocating scene render targets to support 1288x564 (Frame:1407).
+[2016.04.16-02.11.40:907][674]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor41)
+[2016.04.16-02.11.42:580][844]LogEditorViewport: Clicking on Actor (LMB): Minimap_C (Minimap)
+[2016.04.16-02.12.21:630][303]BlueprintLog: New page: Compilar Minimap
+[2016.04.16-02.12.21:794][303]BlueprintEditorCompileResults: Información [1123.42] Compile of Minimap successful! [in 164 ms]
+[2016.04.16-02.12.32:191][142]Cmd: TRANSACTION UNDO
+[2016.04.16-02.12.32:191][142]LogEditorTransaction: Undo Move Actors
+[2016.04.16-02.12.47:477][365]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1' with GeneratedClass '/Game/Game/Maps/Nivel1.Nivel1_C' with ClassGeneratedBy '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1'
+[2016.04.16-02.12.47:478][365]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.16-02.12.47:559][365]PIE: New page: Sesión PIE (reproducción en el editor): Nivel1 (15/04/2016 16:12:47)
+[2016.04.16-02.12.47:614][365]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_Nivel1
+[2016.04.16-02.12.47:833][365]LogPlayLevel: PIE: StaticDuplicateObject took: (0.220094s)
+[2016.04.16-02.12.47:835][365]LogAIModule: Creating AISystem for world Nivel1
+[2016.04.16-02.12.47:835][365]LogPlayLevel: PIE: World Init took: (0.001171s)
+[2016.04.16-02.12.47:851][365]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/Nivel1.Nivel1 to /Game/Game/Maps/UEDPIE_0_Nivel1.Nivel1 (0.236859s)
+[2016.04.16-02.12.47:978][365]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.16-02.12.47:991][365]LogInit: FAudioDevice initialized.
+[2016.04.16-02.12.48:582][365]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.16-02.12.48:622][365]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_Nivel1.Nivel1 up for play (max tick rate 0) at 2016.04.15-21.12.48
+[2016.04.16-02.12.48:622][365]LogActor:Warning: GameSession /Game/Game/Maps/UEDPIE_0_Nivel1.Nivel1:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.16-02.12.48:732][365]LogActor:Warning: GameNetworkManager /Game/Game/Maps/UEDPIE_0_Nivel1.Nivel1:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.16-02.12.48:869][365]LogWorld: Bringing up level for play took: 0.286855
+[2016.04.16-02.12.49:393][365]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.04.16-02.12.49:472][365]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.04.16-02.12.49:602][365]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Game/Maps/UEDPIE_0_Nivel1 1.302
+[2016.04.16-02.12.49:603][365]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1' with GeneratedClass '/Game/Game/Maps/Nivel1.Nivel1_C' with ClassGeneratedBy '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1'
+[2016.04.16-02.12.55:475][655]Set new viewmode: Wireframe
+[2016.04.16-02.12.57:881][820]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1' with GeneratedClass '/Game/Game/Maps/Nivel1.Nivel1_C' with ClassGeneratedBy '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1'
+[2016.04.16-02.12.58:001][820]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1' with GeneratedClass '/Game/Game/Maps/Nivel1.Nivel1_C' with ClassGeneratedBy '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1'
+[2016.04.16-02.12.58:067][820]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000705675FBA0
+[2016.04.16-02.13.13:072][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Minimap/Minimap" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Minimap/Minimap.uasset" SILENT=true
+[2016.04.16-02.13.13:249][297]LogSavePackage: Save=16.691189ms
+[2016.04.16-02.13.13:249][297]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/Minimap33763BE74AC21223D96319A233D7195A.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Minimap/Minimap.uasset'
+[2016.04.16-02.13.13:255][297]LogSavePackage: Total save time: 180.367596ms
+[2016.04.16-02.13.13:255][297]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Minimap/Minimap.uasset
+[2016.04.16-02.13.15:084][456]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.04.16-02.15.25:346][944]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Minimap/T_minimap" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Minimap/T_minimap.uasset" SILENT=true
+[2016.04.16-02.15.25:524][944]LogSavePackage: Save=3.688290ms
+[2016.04.16-02.15.25:524][944]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/T_minimapFBA1618C4DF1F7A9322690857D8A725D.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Minimap/T_minimap.uasset'
+[2016.04.16-02.15.25:527][944]LogSavePackage: Total save time: 178.196523ms
+[2016.04.16-02.15.25:527][944]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Minimap/T_minimap.uasset
+[2016.04.16-02.15.40:747][486]BlueprintLog: New page: Compilar Minimap_HUD
+[2016.04.16-02.15.40:882][486]BlueprintEditorCompileResults: Información [1322.51] Compile of Minimap_HUD successful! [in 135 ms]
+[2016.04.16-02.15.41:777][580]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Minimap/Minimap_HUD" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Minimap/Minimap_HUD.uasset" SILENT=true
+[2016.04.16-02.15.41:946][580]LogSavePackage: Save=20.692823ms
+[2016.04.16-02.15.41:946][580]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/Minimap_HUD1112761A46871F02FCE318A05DA632F5.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Minimap/Minimap_HUD.uasset'
+[2016.04.16-02.15.41:952][580]LogSavePackage: Total save time: 172.480248ms
+[2016.04.16-02.15.41:952][580]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Minimap/Minimap_HUD.uasset
+[2016.04.16-02.15.44:686][883]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1' with GeneratedClass '/Game/Game/Maps/Nivel1.Nivel1_C' with ClassGeneratedBy '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1'
+[2016.04.16-02.15.44:686][883]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.16-02.15.44:687][883]PIE: New page: Sesión PIE (reproducción en el editor): Nivel1 (15/04/2016 16:15:44)
+[2016.04.16-02.15.44:687][883]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_Nivel1
+[2016.04.16-02.15.44:710][883]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023623s)
+[2016.04.16-02.15.44:720][883]LogAIModule: Creating AISystem for world Nivel1
+[2016.04.16-02.15.44:721][883]LogPlayLevel: PIE: World Init took: (0.010279s)
+[2016.04.16-02.15.44:721][883]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/Nivel1.Nivel1 to /Game/Game/Maps/UEDPIE_0_Nivel1.Nivel1 (0.034243s)
+[2016.04.16-02.15.44:818][883]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.16-02.15.44:831][883]LogInit: FAudioDevice initialized.
+[2016.04.16-02.15.44:870][883]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.16-02.15.44:884][883]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_Nivel1.Nivel1 up for play (max tick rate 0) at 2016.04.15-21.15.44
+[2016.04.16-02.15.44:884][883]LogActor:Warning: GameSession /Game/Game/Maps/UEDPIE_0_Nivel1.Nivel1:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.16-02.15.44:884][883]LogActor:Warning: GameNetworkManager /Game/Game/Maps/UEDPIE_0_Nivel1.Nivel1:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.16-02.15.44:885][883]LogWorld: Bringing up level for play took: 0.013968
+[2016.04.16-02.15.44:886][883]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.04.16-02.15.44:886][883]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.04.16-02.15.44:890][883]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Game/Maps/UEDPIE_0_Nivel1 0.589
+[2016.04.16-02.15.44:890][883]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1' with GeneratedClass '/Game/Game/Maps/Nivel1.Nivel1_C' with ClassGeneratedBy '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1'
+[2016.04.16-02.15.49:071][114]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1' with GeneratedClass '/Game/Game/Maps/Nivel1.Nivel1_C' with ClassGeneratedBy '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1'
+[2016.04.16-02.15.49:124][114]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1' with GeneratedClass '/Game/Game/Maps/Nivel1.Nivel1_C' with ClassGeneratedBy '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1'
+[2016.04.16-02.15.49:184][114]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000702A189080
+[2016.04.16-02.15.56:311][873]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1' with GeneratedClass '/Game/Game/Maps/Nivel1.Nivel1_C' with ClassGeneratedBy '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1'
+[2016.04.16-02.15.56:311][873]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.16-02.15.56:311][873]PIE: New page: Sesión PIE (reproducción en el editor): Nivel1 (15/04/2016 16:15:56)
+[2016.04.16-02.15.56:311][873]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_Nivel1
+[2016.04.16-02.15.56:339][873]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027151s)
+[2016.04.16-02.15.56:340][873]LogAIModule: Creating AISystem for world Nivel1
+[2016.04.16-02.15.56:340][873]LogPlayLevel: PIE: World Init took: (0.001398s)
+[2016.04.16-02.15.56:340][873]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/Nivel1.Nivel1 to /Game/Game/Maps/UEDPIE_0_Nivel1.Nivel1 (0.028971s)
+[2016.04.16-02.15.56:444][873]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.16-02.15.56:456][873]LogInit: FAudioDevice initialized.
+[2016.04.16-02.15.56:497][873]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.16-02.15.56:512][873]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_Nivel1.Nivel1 up for play (max tick rate 0) at 2016.04.15-21.15.56
+[2016.04.16-02.15.56:512][873]LogActor:Warning: GameSession /Game/Game/Maps/UEDPIE_0_Nivel1.Nivel1:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.16-02.15.56:512][873]LogActor:Warning: GameNetworkManager /Game/Game/Maps/UEDPIE_0_Nivel1.Nivel1:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.16-02.15.56:513][873]LogWorld: Bringing up level for play took: 0.015039
+[2016.04.16-02.15.56:514][873]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.04.16-02.15.56:514][873]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.04.16-02.15.56:517][873]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Game/Maps/UEDPIE_0_Nivel1 0.216
+[2016.04.16-02.15.56:518][873]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1' with GeneratedClass '/Game/Game/Maps/Nivel1.Nivel1_C' with ClassGeneratedBy '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1'
+[2016.04.16-02.15.58:051][963]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1' with GeneratedClass '/Game/Game/Maps/Nivel1.Nivel1_C' with ClassGeneratedBy '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1'
+[2016.04.16-02.15.58:205][963]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1' with GeneratedClass '/Game/Game/Maps/Nivel1.Nivel1_C' with ClassGeneratedBy '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1'
+[2016.04.16-02.15.58:294][963]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000702A18AA20
+[2016.04.16-02.16.28:478][227]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1' with GeneratedClass '/Game/Game/Maps/Nivel1.Nivel1_C' with ClassGeneratedBy '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1'
+[2016.04.16-02.16.28:478][227]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.16-02.16.28:478][227]PIE: New page: Sesión PIE (reproducción en el editor): Nivel1 (15/04/2016 16:16:28)
+[2016.04.16-02.16.28:478][227]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_Nivel1
+[2016.04.16-02.16.28:502][227]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023791s)
+[2016.04.16-02.16.28:503][227]LogAIModule: Creating AISystem for world Nivel1
+[2016.04.16-02.16.28:503][227]LogPlayLevel: PIE: World Init took: (0.001108s)
+[2016.04.16-02.16.28:503][227]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/Nivel1.Nivel1 to /Game/Game/Maps/UEDPIE_0_Nivel1.Nivel1 (0.025249s)
+[2016.04.16-02.16.28:600][227]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.16-02.16.28:613][227]LogInit: FAudioDevice initialized.
+[2016.04.16-02.16.28:656][227]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.16-02.16.28:670][227]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_Nivel1.Nivel1 up for play (max tick rate 0) at 2016.04.15-21.16.28
+[2016.04.16-02.16.28:670][227]LogActor:Warning: GameSession /Game/Game/Maps/UEDPIE_0_Nivel1.Nivel1:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.16-02.16.28:671][227]LogActor:Warning: GameNetworkManager /Game/Game/Maps/UEDPIE_0_Nivel1.Nivel1:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.16-02.16.28:671][227]LogWorld: Bringing up level for play took: 0.014936
+[2016.04.16-02.16.28:672][227]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.04.16-02.16.28:673][227]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.04.16-02.16.28:676][227]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Game/Maps/UEDPIE_0_Nivel1 0.375
+[2016.04.16-02.16.28:676][227]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1' with GeneratedClass '/Game/Game/Maps/Nivel1.Nivel1_C' with ClassGeneratedBy '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1'
+[2016.04.16-02.16.38:012][689]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1' with GeneratedClass '/Game/Game/Maps/Nivel1.Nivel1_C' with ClassGeneratedBy '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1'
+[2016.04.16-02.16.38:070][689]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1' with GeneratedClass '/Game/Game/Maps/Nivel1.Nivel1_C' with ClassGeneratedBy '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1'
+[2016.04.16-02.16.38:155][689]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000705E1BB380
+[2016.04.16-02.16.54:482][352]BlueprintLog: New page: Compilar Minimap
+[2016.04.16-02.16.54:637][352]BlueprintEditorCompileResults: Información [1396.26] Compile of Minimap successful! [in 155 ms]
+[2016.04.16-02.16.55:355][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Minimap/Minimap" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Minimap/Minimap.uasset" SILENT=true
+[2016.04.16-02.16.55:492][406]LogSavePackage: Save=16.731035ms
+[2016.04.16-02.16.55:492][406]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/Minimap855C4BA145EBB683E256B2B3D5C53437.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Minimap/Minimap.uasset'
+[2016.04.16-02.16.55:498][406]LogSavePackage: Total save time: 140.754551ms
+[2016.04.16-02.16.55:498][406]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Minimap/Minimap.uasset
+[2016.04.16-02.17.00:408][903]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1' with GeneratedClass '/Game/Game/Maps/Nivel1.Nivel1_C' with ClassGeneratedBy '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1'
+[2016.04.16-02.17.00:408][903]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.16-02.17.00:408][903]PIE: New page: Sesión PIE (reproducción en el editor): Nivel1 (15/04/2016 16:17:00)
+[2016.04.16-02.17.00:408][903]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_Nivel1
+[2016.04.16-02.17.00:429][903]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020564s)
+[2016.04.16-02.17.00:430][903]LogAIModule: Creating AISystem for world Nivel1
+[2016.04.16-02.17.00:430][903]LogPlayLevel: PIE: World Init took: (0.001003s)
+[2016.04.16-02.17.00:430][903]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/Nivel1.Nivel1 to /Game/Game/Maps/UEDPIE_0_Nivel1.Nivel1 (0.021937s)
+[2016.04.16-02.17.00:530][903]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.16-02.17.00:542][903]LogInit: FAudioDevice initialized.
+[2016.04.16-02.17.00:580][903]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.16-02.17.00:596][903]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_Nivel1.Nivel1 up for play (max tick rate 0) at 2016.04.15-21.17.00
+[2016.04.16-02.17.00:596][903]LogActor:Warning: GameSession /Game/Game/Maps/UEDPIE_0_Nivel1.Nivel1:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.16-02.17.00:596][903]LogActor:Warning: GameNetworkManager /Game/Game/Maps/UEDPIE_0_Nivel1.Nivel1:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.16-02.17.00:597][903]LogWorld: Bringing up level for play took: 0.016061
+[2016.04.16-02.17.00:598][903]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.04.16-02.17.00:598][903]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.04.16-02.17.00:602][903]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Game/Maps/UEDPIE_0_Nivel1 0.301
+[2016.04.16-02.17.00:602][903]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1' with GeneratedClass '/Game/Game/Maps/Nivel1.Nivel1_C' with ClassGeneratedBy '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1'
+[2016.04.16-02.17.04:885][109]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1' with GeneratedClass '/Game/Game/Maps/Nivel1.Nivel1_C' with ClassGeneratedBy '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1'
+[2016.04.16-02.17.04:936][109]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1' with GeneratedClass '/Game/Game/Maps/Nivel1.Nivel1_C' with ClassGeneratedBy '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1'
+[2016.04.16-02.17.04:999][109]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007049F24720
+[2016.04.16-02.17.13:090][948]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1' with GeneratedClass '/Game/Game/Maps/Nivel1.Nivel1_C' with ClassGeneratedBy '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1'
+[2016.04.16-02.17.13:090][948]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.16-02.17.13:090][948]PIE: New page: Sesión PIE (reproducción en el editor): Nivel1 (15/04/2016 16:17:13)
+[2016.04.16-02.17.13:091][948]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_Nivel1
+[2016.04.16-02.17.13:109][948]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018244s)
+[2016.04.16-02.17.13:110][948]LogAIModule: Creating AISystem for world Nivel1
+[2016.04.16-02.17.13:110][948]LogPlayLevel: PIE: World Init took: (0.000932s)
+[2016.04.16-02.17.13:110][948]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/Nivel1.Nivel1 to /Game/Game/Maps/UEDPIE_0_Nivel1.Nivel1 (0.019474s)
+[2016.04.16-02.17.13:210][948]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.16-02.17.13:223][948]LogInit: FAudioDevice initialized.
+[2016.04.16-02.17.13:263][948]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.16-02.17.13:278][948]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_Nivel1.Nivel1 up for play (max tick rate 0) at 2016.04.15-21.17.13
+[2016.04.16-02.17.13:278][948]LogActor:Warning: GameSession /Game/Game/Maps/UEDPIE_0_Nivel1.Nivel1:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.16-02.17.13:278][948]LogActor:Warning: GameNetworkManager /Game/Game/Maps/UEDPIE_0_Nivel1.Nivel1:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.16-02.17.13:279][948]LogWorld: Bringing up level for play took: 0.014672
+[2016.04.16-02.17.13:280][948]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.04.16-02.17.13:280][948]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.04.16-02.17.13:283][948]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Game/Maps/UEDPIE_0_Nivel1 0.982
+[2016.04.16-02.17.13:283][948]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1' with GeneratedClass '/Game/Game/Maps/Nivel1.Nivel1_C' with ClassGeneratedBy '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1'
+[2016.04.16-02.17.17:238][136]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1' with GeneratedClass '/Game/Game/Maps/Nivel1.Nivel1_C' with ClassGeneratedBy '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1'
+[2016.04.16-02.17.17:292][136]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1' with GeneratedClass '/Game/Game/Maps/Nivel1.Nivel1_C' with ClassGeneratedBy '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1'
+[2016.04.16-02.17.17:378][136]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000070654F22A0
+[2016.04.16-02.17.30:183][365]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.04.16-02.17.35:503][926]Cmd: UpdateLandscapeSetup
+[2016.04.16-02.17.39:367][307]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Maps/Nivel1" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Maps/Nivel1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.04.16-02.17.40:418][307]LogSavePackage: Save=851.111145ms
+[2016.04.16-02.17.40:418][307]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/Nivel14A39D1474746811D707CB4922D1DDC1D.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Maps/Nivel1.umap'
+[2016.04.16-02.17.40:425][307]LogSavePackage: Total save time: 986.698247ms
+[2016.04.16-02.17.40:426][307]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Maps/Nivel1.umap
+[2016.04.16-02.17.41:478][411]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1' with GeneratedClass '/Game/Game/Maps/Nivel1.Nivel1_C' with ClassGeneratedBy '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1'
+[2016.04.16-02.17.41:478][411]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.16-02.17.41:478][411]PIE: New page: Sesión PIE (reproducción en el editor): Nivel1 (15/04/2016 16:17:41)
+[2016.04.16-02.17.41:478][411]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_Nivel1
+[2016.04.16-02.17.41:497][411]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019339s)
+[2016.04.16-02.17.41:498][411]LogAIModule: Creating AISystem for world Nivel1
+[2016.04.16-02.17.41:499][411]LogPlayLevel: PIE: World Init took: (0.001249s)
+[2016.04.16-02.17.41:499][411]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/Nivel1.Nivel1 to /Game/Game/Maps/UEDPIE_0_Nivel1.Nivel1 (0.020913s)
+[2016.04.16-02.17.41:560][411]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007054029F80
+[2016.04.16-02.17.41:572][411]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000702A02DD00
+[2016.04.16-02.17.41:598][411]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.16-02.17.41:611][411]LogInit: FAudioDevice initialized.
+[2016.04.16-02.17.41:649][411]LogWorld: Game class is 'My_GameMode_C'
+[2016.04.16-02.17.41:665][411]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_Nivel1.Nivel1 up for play (max tick rate 0) at 2016.04.15-21.17.41
+[2016.04.16-02.17.41:665][411]LogActor:Warning: GameSession /Game/Game/Maps/UEDPIE_0_Nivel1.Nivel1:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.16-02.17.41:665][411]LogActor:Warning: GameNetworkManager /Game/Game/Maps/UEDPIE_0_Nivel1.Nivel1:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.16-02.17.41:666][411]LogWorld: Bringing up level for play took: 0.016197
+[2016.04.16-02.17.41:669][411]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Game/Maps/UEDPIE_0_Nivel1 -0.632
+[2016.04.16-02.17.41:669][411]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1' with GeneratedClass '/Game/Game/Maps/Nivel1.Nivel1_C' with ClassGeneratedBy '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1'
+[2016.04.16-02.17.54:874][ 74]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1' with GeneratedClass '/Game/Game/Maps/Nivel1.Nivel1_C' with ClassGeneratedBy '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1'
+[2016.04.16-02.17.54:927][ 74]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1' with GeneratedClass '/Game/Game/Maps/Nivel1.Nivel1_C' with ClassGeneratedBy '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1'
+[2016.04.16-02.17.54:994][ 74]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000070659237E0
+[2016.04.16-02.18.03:066][828]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.04.16-02.18.07:893][313]Cmd: UpdateLandscapeSetup
+[2016.04.16-02.18.15:055][ 27]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1' with GeneratedClass '/Game/Game/Maps/Nivel1.Nivel1_C' with ClassGeneratedBy '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1'
+[2016.04.16-02.18.15:055][ 27]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.16-02.18.15:055][ 27]PIE: New page: Sesión PIE (reproducción en el editor): Nivel1 (15/04/2016 16:18:15)
+[2016.04.16-02.18.15:055][ 27]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_Nivel1
+[2016.04.16-02.18.15:079][ 27]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023844s)
+[2016.04.16-02.18.15:080][ 27]LogAIModule: Creating AISystem for world Nivel1
+[2016.04.16-02.18.15:080][ 27]LogPlayLevel: PIE: World Init took: (0.001201s)
+[2016.04.16-02.18.15:081][ 27]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/Nivel1.Nivel1 to /Game/Game/Maps/UEDPIE_0_Nivel1.Nivel1 (0.025412s)
+[2016.04.16-02.18.15:176][ 27]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.16-02.18.15:190][ 27]LogInit: FAudioDevice initialized.
+[2016.04.16-02.18.15:249][ 27]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.16-02.18.15:271][ 27]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_Nivel1.Nivel1 up for play (max tick rate 0) at 2016.04.15-21.18.15
+[2016.04.16-02.18.15:271][ 27]LogActor:Warning: GameSession /Game/Game/Maps/UEDPIE_0_Nivel1.Nivel1:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.16-02.18.15:271][ 27]LogActor:Warning: GameNetworkManager /Game/Game/Maps/UEDPIE_0_Nivel1.Nivel1:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.16-02.18.15:272][ 27]LogWorld: Bringing up level for play took: 0.022543
+[2016.04.16-02.18.15:274][ 27]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.04.16-02.18.15:279][ 27]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Game/Maps/UEDPIE_0_Nivel1 0.978
+[2016.04.16-02.18.15:280][ 27]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1' with GeneratedClass '/Game/Game/Maps/Nivel1.Nivel1_C' with ClassGeneratedBy '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1'
+[2016.04.16-02.18.24:516][489]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1' with GeneratedClass '/Game/Game/Maps/Nivel1.Nivel1_C' with ClassGeneratedBy '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1'
+[2016.04.16-02.18.24:573][489]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1' with GeneratedClass '/Game/Game/Maps/Nivel1.Nivel1_C' with ClassGeneratedBy '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1'
+[2016.04.16-02.18.24:652][489]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000702A02D940
+[2016.04.16-02.28.24:416][ 82]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor36)
+[2016.04.16-02.28.48:337][367]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor42)
+[2016.04.16-02.29.01:934][716]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor40)
+[2016.04.16-02.29.02:635][785]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor41)
+[2016.04.16-02.29.03:337][852]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor42)
+[2016.04.16-02.29.03:945][910]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor39)
+[2016.04.16-02.29.04:533][966]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor37)
+[2016.04.16-02.29.05:103][ 19]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor35)
+[2016.04.16-02.29.06:520][156]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor34)
+[2016.04.16-02.29.07:247][227]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor36)
+[2016.04.16-02.29.08:098][309]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor38)
+[2016.04.16-02.29.52:418][ 86]LogSavePackage: Save=995.813599ms
+[2016.04.16-02.29.52:418][ 86]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/Nivel1_Auto27249B15F442EAEC1AFDD02809FDB5C41.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/Autosaves/Game/Game/Maps/Nivel1_Auto2.umap'
+[2016.04.16-02.29.52:422][ 86]LogSavePackage: Total save time: 1139.683504ms
+[2016.04.16-02.29.52:422][ 86]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/Autosaves/Game/Game/Maps/Nivel1_Auto2.umap
+[2016.04.16-02.29.52:427][ 86]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Game/Maps/Nivel1' took 1.290
+[2016.04.16-02.29.52:427][ 86]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.290
+[2016.04.16-02.29.52:603][ 86]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode] ([1] browsable assets)...
+[2016.04.16-02.29.52:603][ 86]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode]
+[2016.04.16-02.29.52:825][ 86]LogSavePackage: Save=23.822649ms
+[2016.04.16-02.29.52:825][ 86]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/ThirdPersonGameMode_Auto25F47B5E24BA0647EFD3507A04780F84F.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode_Auto2.uasset'
+[2016.04.16-02.29.52:830][ 86]LogSavePackage: Total save time: 224.307701ms
+[2016.04.16-02.29.52:830][ 86]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode_Auto2.uasset
+[2016.04.16-02.29.52:830][ 86]LogFileHelpers: Auto-saving content packages took 0.390
+[2016.04.16-02.35.47:085][528]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2016.04.16-02.35.48:189][635]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
+[2016.04.16-02.36.07:136][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Maps/Nivel1" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Maps/Nivel1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.04.16-02.36.08:084][559]LogSavePackage: Save=754.811707ms
+[2016.04.16-02.36.08:084][559]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/Nivel1F5B812E34633067E54262F852F129FB6.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Maps/Nivel1.umap'
+[2016.04.16-02.36.08:092][559]LogSavePackage: Total save time: 887.717552ms
+[2016.04.16-02.36.08:092][559]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Maps/Nivel1.umap
+[2016.04.16-02.36.10:192][746]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.04.16-02.36.22:255][ 11]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1' with GeneratedClass '/Game/Game/Maps/Nivel1.Nivel1_C' with ClassGeneratedBy '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1'
+[2016.04.16-02.36.22:255][ 11]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.16-02.36.22:255][ 11]PIE: New page: Sesión PIE (reproducción en el editor): Nivel1 (15/04/2016 16:36:22)
+[2016.04.16-02.36.22:255][ 11]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_Nivel1
+[2016.04.16-02.36.22:276][ 11]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020147s)
+[2016.04.16-02.36.22:277][ 11]LogAIModule: Creating AISystem for world Nivel1
+[2016.04.16-02.36.22:277][ 11]LogPlayLevel: PIE: World Init took: (0.001677s)
+[2016.04.16-02.36.22:278][ 11]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/Nivel1.Nivel1 to /Game/Game/Maps/UEDPIE_0_Nivel1.Nivel1 (0.022313s)
+[2016.04.16-02.36.22:359][ 11]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.16-02.36.22:372][ 11]LogInit: FAudioDevice initialized.
+[2016.04.16-02.36.22:417][ 11]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.16-02.36.22:432][ 11]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_Nivel1.Nivel1 up for play (max tick rate 0) at 2016.04.15-21.36.22
+[2016.04.16-02.36.22:432][ 11]LogActor:Warning: GameSession /Game/Game/Maps/UEDPIE_0_Nivel1.Nivel1:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.16-02.36.22:432][ 11]LogActor:Warning: GameNetworkManager /Game/Game/Maps/UEDPIE_0_Nivel1.Nivel1:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.16-02.36.22:433][ 11]LogWorld: Bringing up level for play took: 0.015118
+[2016.04.16-02.36.22:434][ 11]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.04.16-02.36.22:438][ 11]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Game/Maps/UEDPIE_0_Nivel1 0.137
+[2016.04.16-02.36.22:438][ 11]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1' with GeneratedClass '/Game/Game/Maps/Nivel1.Nivel1_C' with ClassGeneratedBy '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1'
+[2016.04.16-02.36.24:733][124]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1' with GeneratedClass '/Game/Game/Maps/Nivel1.Nivel1_C' with ClassGeneratedBy '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1'
+[2016.04.16-02.36.24:805][124]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1' with GeneratedClass '/Game/Game/Maps/Nivel1.Nivel1_C' with ClassGeneratedBy '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1'
+[2016.04.16-02.36.24:869][124]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000070689F54E0
+[2016.04.16-02.37.42:976][563]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.16-02.38.51:890][781]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.04.16-02.39.00:396][110]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.04.16-02.39.13:469][487]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.04.16-02.39.32:886][723]BlueprintLog: New page: Compilar ThirdPersonCharacter
+[2016.04.16-02.39.33:136][723]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2016.04.16-02.39.33:249][723]BlueprintEditorCompileResults: Información [2754.87] Compile of ThirdPersonCharacter successful! [in 363 ms]
+[2016.04.16-02.39.40:750][149]LogSavePackage: Save=419.652435ms
+[2016.04.16-02.39.40:750][149]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/ThirdPersonCharacter47AC25C148200023E8AA8783B4CE9771.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2016.04.16-02.39.40:757][149]LogSavePackage: Total save time: 580.639765ms
+[2016.04.16-02.39.40:757][149]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2016.04.16-02.42.59:340][706]LogMaterial: Missing cached shader map for material M_minimap, compiling. 
+[2016.04.16-02.43.05:561][305]BlueprintLog: New page: Compilar HUD_2
+[2016.04.16-02.43.05:725][305]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.16-02.43.05:955][305]BlueprintEditorCompileResults: Información The execution path doesn't end with a return node.  Cast Failed 
+[2016.04.16-02.43.05:955][305]BlueprintEditorCompileResults: Información [2967.58] Compile of HUD_2 successful! [in 394 ms]
+[2016.04.16-02.43.06:810][374]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/UserInterface/HUD_2" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/UserInterface/HUD_2.uasset" SILENT=true
+[2016.04.16-02.43.07:069][374]LogSavePackage: Save=46.717941ms
+[2016.04.16-02.43.07:069][374]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/HUD_2C7797E51408038450DE13E83EA79ECCB.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/UserInterface/HUD_2.uasset'
+[2016.04.16-02.43.07:077][374]LogSavePackage: Total save time: 264.054175ms
+[2016.04.16-02.43.07:077][374]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/UserInterface/HUD_2.uasset
+[2016.04.16-02.43.14:100][802]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/UserInterface/HUD_2" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/UserInterface/HUD_2.uasset" SILENT=true
+[2016.04.16-02.43.14:247][802]LogSavePackage: Save=27.215103ms
+[2016.04.16-02.43.14:247][802]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/HUD_21D228A4F48F284999DD696BA16B3D100.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/UserInterface/HUD_2.uasset'
+[2016.04.16-02.43.14:250][802]LogSavePackage: Total save time: 147.802088ms
+[2016.04.16-02.43.14:250][802]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/UserInterface/HUD_2.uasset
+[2016.04.16-02.43.16:764][ 23]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1' with GeneratedClass '/Game/Game/Maps/Nivel1.Nivel1_C' with ClassGeneratedBy '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1'
+[2016.04.16-02.43.16:764][ 23]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.16-02.43.16:764][ 23]PIE: New page: Sesión PIE (reproducción en el editor): Nivel1 (15/04/2016 16:43:16)
+[2016.04.16-02.43.16:765][ 23]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_Nivel1
+[2016.04.16-02.43.16:786][ 23]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021833s)
+[2016.04.16-02.43.16:787][ 23]LogAIModule: Creating AISystem for world Nivel1
+[2016.04.16-02.43.16:787][ 23]LogPlayLevel: PIE: World Init took: (0.001055s)
+[2016.04.16-02.43.16:788][ 23]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/Nivel1.Nivel1 to /Game/Game/Maps/UEDPIE_0_Nivel1.Nivel1 (0.023210s)
+[2016.04.16-02.43.16:867][ 23]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.16-02.43.16:882][ 23]LogInit: FAudioDevice initialized.
+[2016.04.16-02.43.16:925][ 23]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.16-02.43.16:940][ 23]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_Nivel1.Nivel1 up for play (max tick rate 0) at 2016.04.15-21.43.16
+[2016.04.16-02.43.16:940][ 23]LogActor:Warning: GameSession /Game/Game/Maps/UEDPIE_0_Nivel1.Nivel1:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.16-02.43.16:941][ 23]LogActor:Warning: GameNetworkManager /Game/Game/Maps/UEDPIE_0_Nivel1.Nivel1:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.16-02.43.16:941][ 23]LogWorld: Bringing up level for play took: 0.015826
+[2016.04.16-02.43.16:942][ 23]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.04.16-02.43.16:948][ 23]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Game/Maps/UEDPIE_0_Nivel1 0.647
+[2016.04.16-02.43.16:948][ 23]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1' with GeneratedClass '/Game/Game/Maps/Nivel1.Nivel1_C' with ClassGeneratedBy '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1'
+[2016.04.16-02.43.19:045][105]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1' with GeneratedClass '/Game/Game/Maps/Nivel1.Nivel1_C' with ClassGeneratedBy '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1'
+[2016.04.16-02.43.19:116][105]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1' with GeneratedClass '/Game/Game/Maps/Nivel1.Nivel1_C' with ClassGeneratedBy '/Game/Game/Maps/Nivel1.Nivel1:PersistentLevel.Nivel1'
+[2016.04.16-02.43.19:209][106]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007070951E40
+[2016.04.16-02.44.17:977][586]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Maps/Nivel1" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Maps/Nivel1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.04.16-02.44.18:973][586]LogSavePackage: Save=774.321777ms
+[2016.04.16-02.44.18:973][586]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/Nivel165FF5A944C2DA5438D030B8372DBA940.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Maps/Nivel1.umap'
+[2016.04.16-02.44.18:979][586]LogSavePackage: Total save time: 921.895064ms
+[2016.04.16-02.44.18:979][586]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Maps/Nivel1.umap
+[2016.04.16-02.44.21:112][801]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.04.16-02.44.27:396][367]LogMaterial: Missing cached shader map for material M_minimap, compiling. 
+[2016.04.16-02.44.27:684][367]LogMaterial: Missing cached shader map for material M_minimap, compiling. 
+[2016.04.16-02.44.27:689][367]LogMaterial: 0.000184 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.16-02.44.31:522][512]MaterialEditorStats: Información Default UI Shader: 28 instructions
+[2016.04.16-02.44.31:523][512]MaterialEditorStats: Información Texture samplers: 1/16
+[2016.04.16-02.44.32:948][587]LogMaterialEditor: Saving and Compiling material M_minimap
+[2016.04.16-02.44.32:994][587]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Minimap/M_minimap" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Minimap/M_minimap.uasset" SILENT=true
+[2016.04.16-02.44.33:013][587]LogSavePackage: Save=16.390522ms
+[2016.04.16-02.44.33:013][587]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/M_minimap2EFBD0124D8FA1BC8B6660B5144C570C.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Minimap/M_minimap.uasset'
+[2016.04.16-02.44.33:020][587]LogSavePackage: Total save time: 23.477305ms
+[2016.04.16-02.44.33:020][587]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Minimap/M_minimap.uasset
+[2016.04.16-02.45.17:254][601]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2016.04.16-02.45.17:336][601]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2016.04.16-02.45.17:343][601]LogMaterial: 0.000061 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.16-02.46.18:872][106]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000706A5F7D80
+[2016.04.16-02.46.18:929][106]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007065FDCC20
+[2016.04.16-02.46.18:932][106]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007064DB3B00
+[2016.04.16-02.46.18:935][106]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007063042840
+[2016.04.16-02.46.18:937][106]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007063043240
+[2016.04.16-02.46.18:940][106]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007069CA6520
+[2016.04.16-02.46.29:556][974]LogMaterial: Missing cached shader map for material T_minimap_Mat, compiling. 
+[2016.04.16-02.46.49:045][405]LogMaterial: Missing cached shader map for material T_minimap_Mat, compiling. 
+[2016.04.16-02.46.51:474][618]BlueprintLog: New page: Compilar HUD_2
+[2016.04.16-02.46.51:702][618]BlueprintEditorCompileResults: Información The execution path doesn't end with a return node.  Cast Failed 
+[2016.04.16-02.46.51:702][618]BlueprintEditorCompileResults: Información [3193.32] Compile of HUD_2 successful! [in 227 m
