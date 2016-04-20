@@ -1,0 +1,541 @@
+﻿Log file open, 04/03/16 14:24:00
+LogInit:Display: Running engine for game: ProyectoUE2
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1487442070) SRandInit(-1487442068).
+LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+LogStats: Stats thread started at 0.257853
+LogConfig:Warning: Failed to saved backup for config[Engine]
+LogConfig:Warning: Failed to saved backup for config[EditorPerProjectUserSettings]
+LogConfig:Warning: Failed to saved backup for config[EditorSettings]
+LogConfig:Warning: Failed to saved backup for config[EditorKeyBindings]
+LogConfig:Warning: Failed to saved backup for config[Scalability]
+[2016.04.03-19.24.02:156][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.03-19.24.02:156][  0]LogInit: API Version: 2758231
+[2016.04.03-19.24.02:156][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.04.03-19.24.02:156][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.04.03-19.24.02:156][  0]LogInit: Build Configuration: Development
+[2016.04.03-19.24.02:156][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.04.03-19.24.02:156][  0]LogInit: Command line:  
+[2016.04.03-19.24.02:156][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.04.03-19.24.02:156][  0]LogInit: Rocket: 1
+[2016.04.03-19.24.02:336][  0]LogInit: Using libcurl 7.41.0
+[2016.04.03-19.24.02:336][  0]LogInit:  - built for x86_64-pc-win32
+[2016.04.03-19.24.02:336][  0]LogInit:  - supports SSL with WinSSL
+[2016.04.03-19.24.02:336][  0]LogInit:  - other features:
+[2016.04.03-19.24.02:336][  0]LogInit:      CURL_VERSION_SSL
+[2016.04.03-19.24.02:336][  0]LogInit:      CURL_VERSION_IPV6
+[2016.04.03-19.24.02:336][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.04.03-19.24.02:336][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.04.03-19.24.02:336][  0]LogInit:      CURL_VERSION_IDN
+[2016.04.03-19.24.02:337][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.04.03-19.24.02:337][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.04.03-19.24.02:337][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.04.03-19.24.02:337][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.04.03-19.24.02:337][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.04.03-19.24.02:397][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.04.03-19.24.02:438][  0]LogInit: Object subsystem initialized
+[2016.04.03-19.24.02:444][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.03-19.24.02:444][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.03-19.24.02:484][  0]LogConfig:Warning: Failed to saved backup for config[DeviceProfiles]
+[2016.04.03-19.24.02:651][  0]LogInit: Computer: ACER
+[2016.04.03-19.24.02:651][  0]LogInit: User: MieL
+[2016.04.03-19.24.02:651][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.04.03-19.24.02:651][  0]LogInit: High frequency timer resolution =1.656325 MHz
+[2016.04.03-19.24.02:651][  0]LogMemory: Memory total: Physical=5.9GB (6GB approx)
+[2016.04.03-19.24.02:652][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.03-19.24.02:652][  0]LogMemory: Process Physical Memory: 54.58 MB used, 54.58 MB peak
+[2016.04.03-19.24.02:652][  0]LogMemory: Process Virtual Memory: 55.37 MB used, 55.37 MB peak
+[2016.04.03-19.24.02:652][  0]LogMemory: Physical Memory: 5065.75 MB used, 6024.27 MB total
+[2016.04.03-19.24.02:652][  0]LogMemory: Virtual Memory: 358.65 MB used, 134217728.00 MB total
+[2016.04.03-19.24.03:113][  0]LogTextLocalizationManager: No specific translations for ('es-MX') exist, so ('es') translations will be used.
+[2016.04.03-19.24.05:426][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2016.04.03-19.24.05:426][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2016.04.03-19.24.05:442][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.04.03-19.24.05:442][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.04.03-19.24.05:442][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.04.03-19.24.05:457][  0]LogD3D11RHI: !Direct3DDevice
+[2016.04.03-19.24.05:457][  0]LogRHI: Texture pool is 638 MB (70% of 912 MB)
+[2016.04.03-19.24.05:478][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.03-19.24.05:918][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Intermediate/Shaders/WorkingDirectory/7672/).
+[2016.04.03-19.24.05:918][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/A3F0CACA4E1152AEB6348483C57E97F5/'.
+[2016.04.03-19.24.05:919][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.03-19.24.45:663][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.03-19.24.45:675][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.03-19.24.45:686][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.03-19.24.45:697][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.03-19.24.45:708][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.03-19.24.45:715][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.03-19.24.45:722][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.03-19.24.45:730][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.03-19.24.45:737][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.03-19.24.45:747][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.03-19.24.45:858][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.03-19.24.45:951][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.03-19.24.45:951][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.03-19.24.45:957][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.03-19.24.46:023][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.03-19.24.46:045][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.03-19.24.46:069][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.03-19.24.46:094][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.03-19.24.46:094][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.03-19.24.47:466][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.03-19.25.08:489][  0]LogDerivedDataCache: Loaded boot cache 20.96s 41MB C:/Users/User/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.03-19.25.08:489][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.04.03-19.25.08:489][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.03-19.25.08:489][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.03-19.25.08:490][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.03-19.25.08:490][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.03-19.25.11:577][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.03-19.25.12:023][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.03-19.26.21:818][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.03-19.26.21:940][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.04.03-19.26.29:307][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.03-19.26.29:307][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.03-19.27.11:385][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.03-19.29.13:940][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.03-19.29.15:632][  0]LogAssetRegistry: FAssetRegistry took 0.0134 seconds to start up
+[2016.04.03-19.29.16:306][  0]LogConfig:Warning: Failed to saved backup for config[InternationalizationExport]
+[2016.04.03-19.29.22:456][  0]LogConfig:Warning: Failed to saved backup for config[SourceControlSettings]
+[2016.04.03-19.29.22:527][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.04.03-19.29.22:689][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.04.03-19.29.23:553][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.04.03-19.29.23:994][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.04.03-19.29.33:614][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.04.03-19.29.33:614][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.04.03-19.29.37:857][  0]LogAutomationTest:Warning: Smoke tests took > 1s to run: 2.45s
+[2016.04.03-19.29.38:069][  0]LogEngine: Initializing Engine...
+[2016.04.03-19.29.38:218][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.03-19.29.38:645][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.03-19.29.41:542][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.03-19.29.41:855][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.03-19.29.42:368][  0]LogInit: FAudioDevice initialized.
+[2016.04.03-19.29.42:385][  0]LogDerivedDataCache:Error: Could not save memory cache C:/Users/User/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.03-19.29.42:489][  0]LogInit: Texture streaming: Enabled
+[2016.04.03-19.29.42:971][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.04.03-19.29.42:971][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.03-19.29.42:972][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 7d6e982040bdfa2d37207091dd9f6648|703d63ca085b4982a6f34989b8311170|423990dd-a1b8-4259-9077-6163d5ea4614
+[2016.04.03-19.29.43:002][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.04.03-19.29.43:324][  0]LogInit: Transaction tracking system initialized
+[2016.04.03-19.29.44:947][  0]BlueprintLog: New page: Cargar el editor
+[2016.04.03-19.29.51:272][  0]LogConfig:Warning: Failed to saved backup for config[LocalizationServiceSettings]
+[2016.04.03-19.29.51:296][  0]LogConfig:Warning: Failed to saved backup for config[LocalizationServiceSettings]
+[2016.04.03-19.29.51:303][  0]LocalizationService: Información Localization service is disabled
+[2016.04.03-19.29.58:808][  0]LogConsoleResponse:Display: 
+[2016.04.03-19.30.05:086][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/Unreal Projects/ProyectoUE2/Content/' took 0.06s
+[2016.04.03-19.30.05:086][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.03-19.30.09:421][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.04.03-19.30.09:449][  0]Cmd: MAP LOAD FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.03-19.30.09:523][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Menu.umap'
+[2016.04.03-19.30.09:523][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.03-19.30.10:294][  0]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 769.889ms to complete.
+[2016.04.03-19.30.10:294][  0]LogFileHelpers: Loading map 'Menu' took 0.846
+[2016.04.03-19.30.12:912][  0]LogCollectionManager: Loaded 0 collections in 0.023463 seconds
+[2016.04.03-19.30.13:276][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/Collections/' took 0.01s
+[2016.04.03-19.30.13:276][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Developers/MieL/Collections/' took 0.01s
+[2016.04.03-19.30.13:276][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Collections/' took 0.01s
+[2016.04.03-19.30.13:276][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000008 seconds
+[2016.04.03-19.30.13:399][  0]LogContentBrowser: Native class hierarchy populated in 0.1225 seconds. Added 1893 classes and 338 folders.
+[2016.04.03-19.30.13:702][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0036 seconds. Added 0 classes and 0 folders.
+[2016.04.03-19.30.20:563][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0019 seconds. Added 0 classes and 0 folders.
+[2016.04.03-19.30.20:846][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0016 seconds. Added 1 classes and 2 folders.
+[2016.04.03-19.30.23:000][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.03-19.30.23:527][  0]LogUObjectGlobals:Warning: Error al encontrar el objeto 'Class Ninguno.'
+[2016.04.03-19.30.23:684][  0]LogLoad: Full Startup: 385.16 seconds (BP compile: 2.14 seconds)
+[2016.04.03-19.30.24:053][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.03-19.30.24:868][  0]LogContentStreaming: Texture pool size now 200 MB
+[2016.04.03-19.30.26:095][  0]LogRenderer: Reallocating scene render targets to support 848x256 (Frame:2).
+[2016.04.03-19.30.32:914][ 12]LogAssetRegistry: Asset discovery search completed in 77.2948 seconds
+[2016.04.03-19.30.32:914][ 12]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2016.04.03-19.30.32:914][ 12]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000063 seconds (updated 0 objects)
+[2016.04.03-19.32.37:596][203]LogAIModule: Creating AISystem for world NivelTutorial
+[2016.04.03-19.32.39:448][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ambient/10a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/10a.uasset" SILENT=true
+[2016.04.03-19.32.39:831][203]LogSavePackage: Save=8.808054ms
+[2016.04.03-19.32.39:831][203]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/10a295AB6F74BBF8F0005B8FFA29696A880.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/10a.uasset'
+[2016.04.03-19.32.39:837][203]LogSavePackage: Total save time: 384.516325ms
+[2016.04.03-19.32.39:837][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/10a.uasset
+[2016.04.03-19.32.43:204][203]LogSavePackage: Save=1698.186035ms
+[2016.04.03-19.32.43:205][203]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/NivelTutorial64E6417844EEED5A5179F293753EBDF3.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Maps/NivelTutorial.umap'
+[2016.04.03-19.32.43:222][203]LogSavePackage: Total save time: 2393.321358ms
+[2016.04.03-19.32.43:222][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Maps/NivelTutorial.umap
+[2016.04.03-19.32.43:230][203]LogFileHelpers: Saving map 'NivelTutorial' took 3.387
+[2016.04.03-19.32.43:246][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ambient/15a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/15a.uasset" SILENT=true
+[2016.04.03-19.32.43:492][203]LogSavePackage: Save=9.975699ms
+[2016.04.03-19.32.43:492][203]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/15a5CB4D3B644459AB6A8A9F49274CEFAE9.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/15a.uasset'
+[2016.04.03-19.32.43:498][203]LogSavePackage: Total save time: 247.630145ms
+[2016.04.03-19.32.43:498][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/15a.uasset
+[2016.04.03-19.32.43:514][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ambient/16a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/16a.uasset" SILENT=true
+[2016.04.03-19.32.43:833][203]LogSavePackage: Save=60.827435ms
+[2016.04.03-19.32.43:833][203]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/16a3C34EE504CF4FCA06B7E85A0BB6F558F.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/16a.uasset'
+[2016.04.03-19.32.43:839][203]LogSavePackage: Total save time: 320.260819ms
+[2016.04.03-19.32.43:839][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/16a.uasset
+[2016.04.03-19.32.43:851][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ambient/17a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/17a.uasset" SILENT=true
+[2016.04.03-19.32.44:133][203]LogSavePackage: Save=28.410486ms
+[2016.04.03-19.32.44:134][203]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/17aD6D25BF44729F30738C673BE9FADCC64.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/17a.uasset'
+[2016.04.03-19.32.44:140][203]LogSavePackage: Total save time: 272.378307ms
+[2016.04.03-19.32.44:140][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/17a.uasset
+[2016.04.03-19.32.44:152][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ambient/18a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/18a.uasset" SILENT=true
+[2016.04.03-19.32.44:428][203]LogSavePackage: Save=21.188475ms
+[2016.04.03-19.32.44:428][203]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/18a3373AB344C4540FB32E5E8984B9AF85A.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/18a.uasset'
+[2016.04.03-19.32.44:435][203]LogSavePackage: Total save time: 250.901844ms
+[2016.04.03-19.32.44:435][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/18a.uasset
+[2016.04.03-19.32.44:448][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ambient/19a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/19a.uasset" SILENT=true
+[2016.04.03-19.32.44:729][203]LogSavePackage: Save=28.351320ms
+[2016.04.03-19.32.44:729][203]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/19a133A9B044F8A79F27D1F4F815EF6097F.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/19a.uasset'
+[2016.04.03-19.32.44:763][203]LogSavePackage: Total save time: 289.905060ms
+[2016.04.03-19.32.44:763][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/19a.uasset
+[2016.04.03-19.32.44:776][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ambient/1a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/1a.uasset" SILENT=true
+[2016.04.03-19.32.45:070][203]LogSavePackage: Save=25.657404ms
+[2016.04.03-19.32.45:070][203]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/1a7C4862284F97C519264EE694BB9C054A.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/1a.uasset'
+[2016.04.03-19.32.45:106][203]LogSavePackage: Total save time: 311.505292ms
+[2016.04.03-19.32.45:106][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/1a.uasset
+[2016.04.03-19.32.45:121][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ambient/20a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/20a.uasset" SILENT=true
+[2016.04.03-19.32.45:403][203]LogSavePackage: Save=7.711047ms
+[2016.04.03-19.32.45:403][203]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/20a19B2949F493CA61F2DC7559FDC1AA6B9.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/20a.uasset'
+[2016.04.03-19.32.45:438][203]LogSavePackage: Total save time: 275.311310ms
+[2016.04.03-19.32.45:438][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/20a.uasset
+[2016.04.03-19.32.45:451][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ambient/21a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/21a.uasset" SILENT=true
+[2016.04.03-19.32.45:722][203]LogSavePackage: Save=28.215477ms
+[2016.04.03-19.32.45:722][203]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/21a6020D88C4DA5BD8A4A60058913DDF98B.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/21a.uasset'
+[2016.04.03-19.32.45:729][203]LogSavePackage: Total save time: 272.785235ms
+[2016.04.03-19.32.45:729][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/21a.uasset
+[2016.04.03-19.32.45:743][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ambient/22a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/22a.uasset" SILENT=true
+[2016.04.03-19.32.46:089][203]LogSavePackage: Save=13.027033ms
+[2016.04.03-19.32.46:089][203]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/22a4B6D80C943C6B8F452F3EE837B89F659.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/22a.uasset'
+[2016.04.03-19.32.46:098][203]LogSavePackage: Total save time: 349.945210ms
+[2016.04.03-19.32.46:098][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/22a.uasset
+[2016.04.03-19.32.46:115][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ambient/23a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/23a.uasset" SILENT=true
+[2016.04.03-19.32.46:437][203]LogSavePackage: Save=8.058201ms
+[2016.04.03-19.32.46:437][203]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/23a44FFFE2540BAB9309908B594D8B2A98A.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/23a.uasset'
+[2016.04.03-19.32.46:444][203]LogSavePackage: Total save time: 302.039757ms
+[2016.04.03-19.32.46:444][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/23a.uasset
+[2016.04.03-19.32.46:457][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ambient/24a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/24a.uasset" SILENT=true
+[2016.04.03-19.32.46:693][203]LogSavePackage: Save=8.040692ms
+[2016.04.03-19.32.46:693][203]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/24a0FE2FB9E4ABA8A29B1DCCBB25B915419.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/24a.uasset'
+[2016.04.03-19.32.46:699][203]LogSavePackage: Total save time: 236.741584ms
+[2016.04.03-19.32.46:699][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/24a.uasset
+[2016.04.03-19.32.46:711][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ambient/25a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/25a.uasset" SILENT=true
+[2016.04.03-19.32.46:976][203]LogSavePackage: Save=28.020468ms
+[2016.04.03-19.32.46:976][203]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/25a39DF40EC432D941ACEC6FDA9AA4277BB.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/25a.uasset'
+[2016.04.03-19.32.46:984][203]LogSavePackage: Total save time: 267.732479ms
+[2016.04.03-19.32.46:984][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/25a.uasset
+[2016.04.03-19.32.46:998][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ambient/27a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/27a.uasset" SILENT=true
+[2016.04.03-19.32.47:263][203]LogSavePackage: Save=11.276772ms
+[2016.04.03-19.32.47:263][203]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/27a65D2ECA14C88394CBAFD969C084AA44F.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/27a.uasset'
+[2016.04.03-19.32.47:271][203]LogSavePackage: Total save time: 267.762065ms
+[2016.04.03-19.32.47:272][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/27a.uasset
+[2016.04.03-19.32.47:287][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ambient/28a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/28a.uasset" SILENT=true
+[2016.04.03-19.32.47:527][203]LogSavePackage: Save=9.003064ms
+[2016.04.03-19.32.47:527][203]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/28a5C02D42048AA46D75820A89427D51DEE.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/28a.uasset'
+[2016.04.03-19.32.47:534][203]LogSavePackage: Total save time: 242.541771ms
+[2016.04.03-19.32.47:535][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/28a.uasset
+[2016.04.03-19.32.47:548][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ambient/29a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/29a.uasset" SILENT=true
+[2016.04.03-19.32.47:807][203]LogSavePackage: Save=12.074321ms
+[2016.04.03-19.32.47:807][203]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/29a324429394391AEC752988BB9CEFF85D9.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/29a.uasset'
+[2016.04.03-19.32.47:814][203]LogSavePackage: Total save time: 261.146817ms
+[2016.04.03-19.32.47:814][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/29a.uasset
+[2016.04.03-19.32.47:827][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ambient/2a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/2a.uasset" SILENT=true
+[2016.04.03-19.32.48:187][203]LogSavePackage: Save=11.492310ms
+[2016.04.03-19.32.48:187][203]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/2aA5A255F54689474F1DFFF1A6BCD3FFE3.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/2a.uasset'
+[2016.04.03-19.32.48:196][203]LogSavePackage: Total save time: 365.102258ms
+[2016.04.03-19.32.48:196][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/2a.uasset
+[2016.04.03-19.32.48:215][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ambient/30a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/30a.uasset" SILENT=true
+[2016.04.03-19.32.48:625][203]LogSavePackage: Save=11.430728ms
+[2016.04.03-19.32.48:625][203]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/30a2BF31BAA44379A8155FC678ADECD00A6.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/30a.uasset'
+[2016.04.03-19.32.48:634][203]LogSavePackage: Total save time: 409.517456ms
+[2016.04.03-19.32.48:635][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/30a.uasset
+[2016.04.03-19.32.48:656][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ambient/31a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/31a.uasset" SILENT=true
+[2016.04.03-19.32.48:997][203]LogSavePackage: Save=11.927007ms
+[2016.04.03-19.32.48:997][203]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/31a16805EAC4B23D47E073ED48F52A51C0D.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/31a.uasset'
+[2016.04.03-19.32.49:005][203]LogSavePackage: Total save time: 309.616774ms
+[2016.04.03-19.32.49:005][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/31a.uasset
+[2016.04.03-19.32.49:021][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ambient/32a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/32a.uasset" SILENT=true
+[2016.04.03-19.32.49:276][203]LogSavePackage: Save=7.769007ms
+[2016.04.03-19.32.49:276][203]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/32a0A352CE94D9AEBFA9DEB7E900F3FDEFC.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/32a.uasset'
+[2016.04.03-19.32.49:282][203]LogSavePackage: Total save time: 255.477037ms
+[2016.04.03-19.32.49:282][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/32a.uasset
+[2016.04.03-19.32.49:296][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ambient/33a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/33a.uasset" SILENT=true
+[2016.04.03-19.32.49:581][203]LogSavePackage: Save=43.681042ms
+[2016.04.03-19.32.49:581][203]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/33a99700161434A89242E4412915AEEEBFB.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/33a.uasset'
+[2016.04.03-19.32.49:589][203]LogSavePackage: Total save time: 288.097445ms
+[2016.04.03-19.32.49:589][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/33a.uasset
+[2016.04.03-19.32.49:603][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ambient/3a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/3a.uasset" SILENT=true
+[2016.04.03-19.32.49:850][203]LogSavePackage: Save=7.814288ms
+[2016.04.03-19.32.49:850][203]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/3a43CB85A743A31ABC65552E84E6CECDA7.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/3a.uasset'
+[2016.04.03-19.32.49:856][203]LogSavePackage: Total save time: 247.368120ms
+[2016.04.03-19.32.49:857][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/3a.uasset
+[2016.04.03-19.32.49:870][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ambient/4a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/4a.uasset" SILENT=true
+[2016.04.03-19.32.50:134][203]LogSavePackage: Save=10.266101ms
+[2016.04.03-19.32.50:134][203]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/4a6857B68940A09FD42EBA13A178E961BB.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/4a.uasset'
+[2016.04.03-19.32.50:155][203]LogSavePackage: Total save time: 280.185349ms
+[2016.04.03-19.32.50:155][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/4a.uasset
+[2016.04.03-19.32.50:169][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ambient/5a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/5a.uasset" SILENT=true
+[2016.04.03-19.32.50:416][203]LogSavePackage: Save=8.815903ms
+[2016.04.03-19.32.50:416][203]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/5a337B41D6438B718DFECC5293D6EE1FC5.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/5a.uasset'
+[2016.04.03-19.32.50:443][203]LogSavePackage: Total save time: 268.423770ms
+[2016.04.03-19.32.50:444][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/5a.uasset
+[2016.04.03-19.32.50:457][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ambient/6a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/6a.uasset" SILENT=true
+[2016.04.03-19.32.50:706][203]LogSavePackage: Save=7.849909ms
+[2016.04.03-19.32.50:706][203]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/6a790BCF1247161F7C83C5F5A502B3ADDF.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/6a.uasset'
+[2016.04.03-19.32.50:712][203]LogSavePackage: Total save time: 249.620698ms
+[2016.04.03-19.32.50:712][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/6a.uasset
+[2016.04.03-19.32.50:725][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ambient/7a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/7a.uasset" SILENT=true
+[2016.04.03-19.32.50:980][203]LogSavePackage: Save=7.927792ms
+[2016.04.03-19.32.50:980][203]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/7a327B79CF4D1412CE278C74B34E810023.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/7a.uasset'
+[2016.04.03-19.32.50:986][203]LogSavePackage: Total save time: 257.686745ms
+[2016.04.03-19.32.50:986][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/7a.uasset
+[2016.04.03-19.32.51:001][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ambient/8a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/8a.uasset" SILENT=true
+[2016.04.03-19.32.51:339][203]LogSavePackage: Save=28.370035ms
+[2016.04.03-19.32.51:339][203]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/8aCAEE931542DB27F9EEA3ED9552A12931.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/8a.uasset'
+[2016.04.03-19.32.51:347][203]LogSavePackage: Total save time: 317.906208ms
+[2016.04.03-19.32.51:347][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/8a.uasset
+[2016.04.03-19.32.51:363][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ambient/9a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/9a.uasset" SILENT=true
+[2016.04.03-19.32.51:761][203]LogSavePackage: Save=24.648544ms
+[2016.04.03-19.32.51:761][203]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/9a01632AEB41E916878A2675AE19DEB773.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/9a.uasset'
+[2016.04.03-19.32.51:781][203]LogSavePackage: Total save time: 397.581395ms
+[2016.04.03-19.32.51:781][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/9a.uasset
+[2016.04.03-19.32.51:799][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ambient/columna_1_callejon_norm" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/columna_1_callejon_norm.uasset" SILENT=true
+[2016.04.03-19.32.52:123][203]LogSavePackage: Save=26.710941ms
+[2016.04.03-19.32.52:123][203]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/columna_1_callejon_norm56CFCACE41BE6721AC667994ACC83B53.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/columna_1_callejon_norm.uasset'
+[2016.04.03-19.32.52:130][203]LogSavePackage: Total save time: 325.273726ms
+[2016.04.03-19.32.52:130][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/columna_1_callejon_norm.uasset
+[2016.04.03-19.32.52:143][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ambient/columna_1_callejon_text" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/columna_1_callejon_text.uasset" SILENT=true
+[2016.04.03-19.32.52:434][203]LogSavePackage: Save=26.751997ms
+[2016.04.03-19.32.52:434][203]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/columna_1_callejon_text8832CF0B4B5F1221E294788C329EC06D.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/columna_1_callejon_text.uasset'
+[2016.04.03-19.32.52:442][203]LogSavePackage: Total save time: 285.251990ms
+[2016.04.03-19.32.52:442][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/columna_1_callejon_text.uasset
+[2016.04.03-19.32.52:756][203]LogSavePackage: Save=28.304831ms
+[2016.04.03-19.32.52:756][203]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/pared_entrada_abajo_normales17043205446ED334AAD8FD9B3DAE62F1.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/pared_entrada_abajo_normales.uasset'
+[2016.04.03-19.32.52:763][203]LogSavePackage: Total save time: 273.686625ms
+[2016.04.03-19.32.52:763][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/pared_entrada_abajo_normales.uasset
+[2016.04.03-19.32.52:776][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ambient/pared_entrada_abajo_text" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/pared_entrada_abajo_text.uasset" SILENT=true
+[2016.04.03-19.32.53:083][203]LogSavePackage: Save=31.115873ms
+[2016.04.03-19.32.53:083][203]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/pared_entrada_abajo_textC64FB7E14A22E5EDF2E5549F9197766A.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/pared_entrada_abajo_text.uasset'
+[2016.04.03-19.32.53:090][203]LogSavePackage: Total save time: 284.847479ms
+[2016.04.03-19.32.53:090][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/pared_entrada_abajo_text.uasset
+[2016.04.03-19.32.53:103][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ambient/piso_a" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/piso_a.uasset" SILENT=true
+[2016.04.03-19.32.53:400][203]LogSavePackage: Save=32.936169ms
+[2016.04.03-19.32.53:400][203]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/piso_a0F81E41241B8C9BB58A2119ECCE852B9.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/piso_a.uasset'
+[2016.04.03-19.32.53:433][203]LogSavePackage: Total save time: 325.526088ms
+[2016.04.03-19.32.53:433][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/piso_a.uasset
+[2016.04.03-19.32.53:447][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ambient/ventana_1norm" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/ventana_1norm.uasset" SILENT=true
+[2016.04.03-19.32.53:707][203]LogSavePackage: Save=9.118380ms
+[2016.04.03-19.32.53:707][203]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/ventana_1normEE53087A4614FDAC4268E78702DB75C0.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/ventana_1norm.uasset'
+[2016.04.03-19.32.53:746][203]LogSavePackage: Total save time: 291.872669ms
+[2016.04.03-19.32.53:746][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/ventana_1norm.uasset
+[2016.04.03-19.32.53:764][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ambient/ventana_1tex" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/ventana_1tex.uasset" SILENT=true
+[2016.04.03-19.32.54:231][203]LogSavePackage: Save=33.017673ms
+[2016.04.03-19.32.54:231][203]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/ventana_1tex9FF48B8542EEF241EDF4678A21E31C99.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/ventana_1tex.uasset'
+[2016.04.03-19.32.54:245][203]LogSavePackage: Total save time: 474.294599ms
+[2016.04.03-19.32.54:245][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/ambient/ventana_1tex.uasset
+[2016.04.03-19.35.00:626][683]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.03-19.35.00:626][683]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.03-19.35.01:407][684]Cmd: QUIT_EDITOR
+[2016.04.03-19.35.02:102][684]LogExit: Preparing to exit.
+[2016.04.03-19.35.03:402][684]LogExit: Editor shut down
+[2016.04.03-19.35.03:405][684]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000211D9F420
+[2016.04.03-19.35.03:405][684]LogExit: Transaction tracking system shut down
+[2016.04.03-19.35.03:407][684]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000002018994E0
+[2016.04.03-19.35.03:408][684]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000002183DDEE0
+[2016.04.03-19.35.04:004][684]LogExit: Object subsystem successfully closed.
+[2016.04.03-19.35.04:047][684]LogD3D11RHI: Shutdown
+[2016.04.03-19.35.04:047][684]LogD3D11RHI: CleanupD3DDevice
+[2016.04.03-19.35.04:170][684]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.04.03-19.35.04:288][684]LogModuleManager: Shutting down and abandoning module CookingStats (198)
+[2016.04.03-19.35.04:288][684]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2016.04.03-19.35.04:288][684]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2016.04.03-19.35.04:288][684]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2016.04.03-19.35.04:288][684]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2016.04.03-19.35.04:288][684]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2016.04.03-19.35.04:292][684]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2016.04.03-19.35.04:292][684]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2016.04.03-19.35.04:292][684]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.04.03-19.35.04:292][684]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.04.03-19.35.04:293][684]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.04.03-19.35.04:293][684]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.04.03-19.35.04:293][684]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.04.03-19.35.04:293][684]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.04.03-19.35.04:293][684]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.04.03-19.35.04:293][684]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.04.03-19.35.04:293][684]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.04.03-19.35.04:293][684]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.04.03-19.35.04:293][684]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.04.03-19.35.04:293][684]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.04.03-19.35.04:294][684]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.04.03-19.35.04:294][684]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.04.03-19.35.04:294][684]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.04.03-19.35.04:294][684]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.04.03-19.35.04:294][684]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.04.03-19.35.04:294][684]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.04.03-19.35.04:638][684]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.04.03-19.35.04:638][684]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.04.03-19.35.04:638][684]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.04.03-19.35.04:638][684]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.04.03-19.35.04:638][684]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.04.03-19.35.04:638][684]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.04.03-19.35.04:638][684]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.04.03-19.35.04:638][684]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.04.03-19.35.04:638][684]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.04.03-19.35.04:639][684]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.04.03-19.35.04:639][684]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.04.03-19.35.04:639][684]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.04.03-19.35.04:639][684]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.04.03-19.35.04:640][684]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.04.03-19.35.04:640][684]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.04.03-19.35.04:640][684]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.04.03-19.35.04:640][684]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.04.03-19.35.04:640][684]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.04.03-19.35.04:640][684]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.04.03-19.35.04:641][684]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.04.03-19.35.04:641][684]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.04.03-19.35.04:641][684]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.04.03-19.35.04:641][684]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.04.03-19.35.04:641][684]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.04.03-19.35.04:641][684]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.04.03-19.35.04:641][684]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.04.03-19.35.04:642][684]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.04.03-19.35.04:642][684]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.04.03-19.35.04:642][684]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.04.03-19.35.04:642][684]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.04.03-19.35.04:642][684]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.04.03-19.35.04:642][684]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.04.03-19.35.04:643][684]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.04.03-19.35.04:643][684]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.04.03-19.35.04:643][684]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.04.03-19.35.04:643][684]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.04.03-19.35.04:643][684]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.04.03-19.35.04:643][684]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.04.03-19.35.04:643][684]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.04.03-19.35.04:644][684]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.04.03-19.35.04:644][684]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.04.03-19.35.04:644][684]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.04.03-19.35.04:644][684]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.04.03-19.35.04:644][684]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.04.03-19.35.04:644][684]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.04.03-19.35.04:644][684]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.04.03-19.35.04:644][684]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.04.03-19.35.04:644][684]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.04.03-19.35.04:644][684]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.04.03-19.35.04:644][684]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.04.03-19.35.04:836][684]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.04.03-19.35.04:836][684]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.04.03-19.35.04:836][684]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.04.03-19.35.04:836][684]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.04.03-19.35.04:836][684]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.04.03-19.35.04:836][684]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.04.03-19.35.04:836][684]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.04.03-19.35.04:836][684]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.04.03-19.35.04:914][684]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.04.03-19.35.04:914][684]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.04.03-19.35.04:914][684]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.04.03-19.35.04:914][684]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.04.03-19.35.04:915][684]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.04.03-19.35.04:915][684]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.04.03-19.35.04:915][684]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.04.03-19.35.04:915][684]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.04.03-19.35.04:915][684]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.04.03-19.35.04:915][684]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.04.03-19.35.04:915][684]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.04.03-19.35.04:916][684]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.04.03-19.35.04:916][684]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.04.03-19.35.04:916][684]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.04.03-19.35.04:916][684]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.04.03-19.35.04:916][684]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.04.03-19.35.04:916][684]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.04.03-19.35.04:916][684]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.04.03-19.35.04:916][684]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.04.03-19.35.04:916][684]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.04.03-19.35.04:916][684]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.04.03-19.35.04:916][684]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.04.03-19.35.04:917][684]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.04.03-19.35.04:917][684]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.04.03-19.35.04:921][684]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.04.03-19.35.04:925][684]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.04.03-19.35.05:106][684]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.04.03-19.35.05:110][684]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.04.03-19.35.05:110][684]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.04.03-19.35.05:212][684]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.04.03-19.35.05:212][684]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.04.03-19.35.05:212][684]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.04.03-19.35.05:225][684]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.04.03-19.35.05:225][684]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.04.03-19.35.05:226][684]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.04.03-19.35.05:226][684]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.04.03-19.35.05:226][684]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.04.03-19.35.05:226][684]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.04.03-19.35.05:227][684]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.04.03-19.35.05:227][684]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.04.03-19.35.05:227][684]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.04.03-19.35.05:227][684]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.04.03-19.35.05:227][684]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.04.03-19.35.05:227][684]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.04.03-19.35.05:228][684]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.04.03-19.35.05:228][684]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.04.03-19.35.05:228][684]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.04.03-19.35.05:228][684]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.04.03-19.35.05:275][684]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.04.03-19.35.05:282][684]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.04.03-19.35.05:282][684]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.04.03-19.35.05:282][684]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.04.03-19.35.05:282][684]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.04.03-19.35.05:282][684]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.04.03-19.35.05:282][684]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.04.03-19.35.05:283][684]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.04.03-19.35.05:283][684]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.04.03-19.35.05:283][684]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.04.03-19.35.05:385][684]LogDerivedDataCache: Shutdown
+[2016.04.03-19.35.05:385][684]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.04.03-19.35.05:385][684]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.04.03-19.35.05:385][684]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.04.03-19.35.05:385][684]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.04.03-19.35.05:385][684]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.04.03-19.35.05:385][684]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.04.03-19.35.05:385][684]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.04.03-19.35.05:385][684]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.04.03-19.35.05:385][684]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.04.03-19.35.05:385][684]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.04.03-19.35.05:385][684]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.04.03-19.35.05:385][684]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.04.03-19.35.05:385][684]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.04.03-19.35.05:385][684]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.04.03-19.35.05:386][684]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.04.03-19.35.05:386][684]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.04.03-19.35.05:386][684]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.04.03-19.35.05:386][684]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.04.03-19.35.05:386][684]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.04.03-19.35.05:386][684]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.04.03-19.35.05:386][684]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.04.03-19.35.05:386][684]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.04.03-19.35.05:386][684]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.04.03-19.35.05:386][684]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.04.03-19.35.05:387][684]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.04.03-19.35.05:387][684]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.04.03-19.35.05:387][684]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.04.03-19.35.05:387][684]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.04.03-19.35.05:390][684]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.04.03-19.35.05:391][684]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.04.03-19.35.05:391][684]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.04.03-19.35.05:391][684]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.04.03-19.35.05:391][684]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.04.03-19.35.05:391][684]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.04.03-19.35.05:391][684]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.04.03-19.35.05:392][684]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.04.03-19.35.05:392][684]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.04.03-19.35.06:927][684]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.04.03-19.35.06:927][684]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.04.03-19.35.06:927][684]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.04.03-19.35.06:927][684]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.04.03-19.35.06:928][684]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.04.03-19.35.06:928][684]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.04.03-19.35.06:928][684]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.04.03-19.35.06:930][684]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.04.03-19.35.06:931][684]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.04.03-19.35.06:931][684]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.04.03-19.35.06:931][684]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.04.03-19.35.06:931][684]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.04.03-19.35.06:931][684]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.04.03-19.35.06:931][684]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.04.03-19.35.06:931][684]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.04.03-19.35.06:931][684]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.04.03-19.35.06:931][684]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.04.03-19.35.06:935][684]LogExit: Exiting.
+[2016.04.03-19.35.06:944][684]Log file closed, 04/03/16 14:35:06

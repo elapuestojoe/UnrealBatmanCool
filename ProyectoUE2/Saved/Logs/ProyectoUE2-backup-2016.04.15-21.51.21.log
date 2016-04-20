@@ -1,0 +1,212 @@
+﻿[2016.04.16-02.47.46:712][  0]Log file open, 04/15/16 21:47:46
+[2016.04.16-02.47.46:712][  0]LogInit:Display: Running engine for game: ProyectoUE2
+[2016.04.16-02.47.46:712][  0]LogPlatformFile: Not using cached read wrapper
+[2016.04.16-02.47.46:712][  0]LogInit:Display: RandInit(1720672401) SRandInit(1720672401).
+[2016.04.16-02.47.46:712][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2016.04.16-02.47.46:712][  0]LogStats: Stats thread started at 0.110460
+[2016.04.16-02.47.46:712][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.16-02.47.46:712][  0]LogInit: API Version: 2758231
+[2016.04.16-02.47.46:712][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.04.16-02.47.46:712][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.04.16-02.47.46:712][  0]LogInit: Build Configuration: Development
+[2016.04.16-02.47.46:712][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.04.16-02.47.46:712][  0]LogInit: Command line:  
+[2016.04.16-02.47.46:712][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.04.16-02.47.46:712][  0]LogInit: Rocket: 1
+[2016.04.16-02.47.46:731][  0]LogInit: Using libcurl 7.41.0
+[2016.04.16-02.47.46:731][  0]LogInit:  - built for x86_64-pc-win32
+[2016.04.16-02.47.46:731][  0]LogInit:  - supports SSL with WinSSL
+[2016.04.16-02.47.46:731][  0]LogInit:  - other features:
+[2016.04.16-02.47.46:731][  0]LogInit:      CURL_VERSION_SSL
+[2016.04.16-02.47.46:731][  0]LogInit:      CURL_VERSION_IPV6
+[2016.04.16-02.47.46:731][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.04.16-02.47.46:731][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.04.16-02.47.46:731][  0]LogInit:      CURL_VERSION_IDN
+[2016.04.16-02.47.46:731][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.04.16-02.47.46:731][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.04.16-02.47.46:731][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.04.16-02.47.46:731][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.04.16-02.47.46:731][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.04.16-02.47.46:746][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.04.16-02.47.46:756][  0]LogInit: Object subsystem initialized
+[2016.04.16-02.47.46:757][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.16-02.47.46:757][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.16-02.47.46:783][  0]LogInit: Computer: ACER
+[2016.04.16-02.47.46:783][  0]LogInit: User: MieL
+[2016.04.16-02.47.46:783][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.04.16-02.47.46:783][  0]LogInit: High frequency timer resolution =1.656323 MHz
+[2016.04.16-02.47.46:783][  0]LogMemory: Memory total: Physical=5.9GB (6GB approx)
+[2016.04.16-02.47.46:783][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.16-02.47.46:783][  0]LogMemory: Process Physical Memory: 54.61 MB used, 54.61 MB peak
+[2016.04.16-02.47.46:783][  0]LogMemory: Process Virtual Memory: 55.34 MB used, 55.34 MB peak
+[2016.04.16-02.47.46:783][  0]LogMemory: Physical Memory: 3549.06 MB used, 6024.27 MB total
+[2016.04.16-02.47.46:783][  0]LogMemory: Virtual Memory: 358.64 MB used, 134217728.00 MB total
+[2016.04.16-02.47.46:846][  0]LogTextLocalizationManager: No specific translations for ('es-MX') exist, so ('es') translations will be used.
+[2016.04.16-02.47.47:293][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2016.04.16-02.47.47:293][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2016.04.16-02.47.47:296][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.04.16-02.47.47:296][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.04.16-02.47.47:297][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.04.16-02.47.47:306][  0]LogD3D11RHI: !Direct3DDevice
+[2016.04.16-02.47.47:306][  0]LogRHI: Texture pool is 638 MB (70% of 912 MB)
+[2016.04.16-02.47.47:319][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.16-02.47.47:326][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Intermediate/Shaders/WorkingDirectory/3528/).
+[2016.04.16-02.47.47:326][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/B059F0154C2A6AA0938E3A85E9DD6BA3/'.
+[2016.04.16-02.47.47:326][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.16-02.47.50:025][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.16-02.47.50:038][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.16-02.47.50:096][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.16-02.47.50:112][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.16-02.47.50:125][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.16-02.47.50:134][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.16-02.47.50:143][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.16-02.47.50:151][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.16-02.47.50:159][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.16-02.47.50:168][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.16-02.47.50:177][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.16-02.47.50:194][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.16-02.47.50:194][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.16-02.47.50:197][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.16-02.47.50:224][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.16-02.47.50:230][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.16-02.47.50:237][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.16-02.47.50:354][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.16-02.47.50:354][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.16-02.47.50:647][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.16-02.47.51:225][  0]LogDerivedDataCache: Loaded boot cache 0.58s 41MB C:/Users/User/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.16-02.47.51:225][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.04.16-02.47.51:225][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.16-02.47.51:225][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.16-02.47.51:225][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.16-02.47.51:225][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.16-02.47.51:371][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.16-02.47.51:385][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.16-02.47.52:905][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.16-02.47.52:910][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.04.16-02.47.53:118][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.16-02.47.53:118][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.16-02.47.53:529][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.16-02.48.16:197][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.16-02.48.16:622][  0]LogAssetRegistry: FAssetRegistry took 0.0117 seconds to start up
+[2016.04.16-02.48.17:167][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.04.16-02.48.17:171][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.04.16-02.48.17:215][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.04.16-02.48.17:251][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.04.16-02.48.18:163][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.04.16-02.48.18:163][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.04.16-02.48.18:293][  0]LogEngine: Initializing Engine...
+[2016.04.16-02.48.18:302][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.16-02.48.18:333][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.16-02.48.18:590][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.16-02.48.18:598][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.16-02.48.18:616][  0]LogInit: FAudioDevice initialized.
+[2016.04.16-02.48.18:653][  0]LogDerivedDataCache: Saved boot cache 0.04s 41MB C:/Users/User/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.16-02.48.18:657][  0]LogInit: Texture streaming: Enabled
+[2016.04.16-02.48.18:674][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.04.16-02.48.18:674][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.16-02.48.18:674][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 7d6e982040bdfa2d37207091dd9f6648|703d63ca085b4982a6f34989b8311170|423990dd-a1b8-4259-9077-6163d5ea4614
+[2016.04.16-02.48.18:674][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.04.16-02.48.18:695][  0]LogInit: Transaction tracking system initialized
+[2016.04.16-02.48.18:871][  0]BlueprintLog: New page: Cargar el editor
+[2016.04.16-02.48.19:164][  0]LocalizationService: Información Localization service is disabled
+[2016.04.16-02.48.19:374][  0]LogLinker:Warning: No puede encontrar el archivo '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2016.04.16-02.48.19:374][  0]LogLinker:Warning: No puede encontrar el archivo '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2016.04.16-02.48.19:374][  0]LogUObjectGlobals:Warning: Error al encontrar el objeto 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2016.04.16-02.48.19:671][  0]LogConsoleResponse:Display: 
+[2016.04.16-02.48.20:351][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.16-02.48.20:571][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/Unreal Projects/ProyectoUE2/Content/' took 0.03s
+[2016.04.16-02.48.20:571][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.04.16-02.48.20:682][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.16-02.48.20:682][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.16-02.48.52:660][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.16-02.48.52:660][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.16-02.48.52:852][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.16-02.48.52:852][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.16-02.48.54:378][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.16-02.48.54:378][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.16-02.48.54:395][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.16-02.48.54:395][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.16-02.48.54:396][  0]Cmd: MAP LOAD FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Maps/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.16-02.48.54:400][  0]LightingResults: New page: Diseñar la iluminación
+[2016.04.16-02.48.54:427][  0]MapCheck: New page: Revisión del mapa
+[2016.04.16-02.48.54:427][  0]LightingResults: New page: Diseñar la iluminación
+[2016.04.16-02.48.54:463][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C2208FF420
+[2016.04.16-02.48.55:740][  0]LogAIModule: Creating AISystem for world Menu
+[2016.04.16-02.48.55:747][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.16-02.48.55:748][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.16-02.48.55:947][  0]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 197.218ms to complete.
+[2016.04.16-02.48.55:947][  0]LogFileHelpers: Loading map 'Menu' took 1.550
+[2016.04.16-02.48.56:189][  0]LogCollectionManager: Loaded 0 collections in 0.004961 seconds
+[2016.04.16-02.48.56:234][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/Collections/' took 0.01s
+[2016.04.16-02.48.56:234][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Developers/MieL/Collections/' took 0.01s
+[2016.04.16-02.48.56:234][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Collections/' took 0.01s
+[2016.04.16-02.48.56:234][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.04.16-02.48.56:245][  0]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 1893 classes and 338 folders.
+[2016.04.16-02.48.56:258][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.04.16-02.48.56:862][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.04.16-02.48.56:870][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.04.16-02.48.56:979][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.16-02.48.56:986][  0]LogUObjectGlobals:Warning: Error al encontrar el objeto 'Class Ninguno.'
+[2016.04.16-02.48.57:010][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_14ec_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_2794_0///####STATCAT_Advanced####
+[2016.04.16-02.48.57:010][  0]LogLoad: Full Startup: 71.23 seconds (BP compile: 0.16 seconds)
+[2016.04.16-02.48.57:033][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.16-02.48.57:345][  0]LogContentStreaming: Texture pool size now 200 MB
+[2016.04.16-02.48.57:556][  0]LogRenderer: Reallocating scene render targets to support 1104x564 (Frame:2).
+[2016.04.16-02.48.58:351][  6]LogAssetRegistry: Asset discovery search completed in 41.7400 seconds
+[2016.04.16-02.48.58:351][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.04.16-02.48.58:351][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000039 seconds (updated 0 objects)
+[2016.04.16-02.49.52:117][149]LogLinker:Warning: No puede encontrar el archivo '/Game/Game/Minimap/T_minimap_Mat'
+[2016.04.16-02.49.52:118][149]LogLinker:Warning: No puede encontrar el archivo para el activo '/Game/Game/Minimap/T_minimap_Mat' mientras carga ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2016.04.16-02.49.52:118][149]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : No puede encontrar el archivo para el activo. /Game/Game/Minimap/T_minimap_Mat
+[2016.04.16-02.49.52:118][149]LogLinker:Warning: No puede encontrar el archivo '/Game/Game/Minimap/T_minimap_Mat'
+[2016.04.16-02.49.52:118][149]LogLinker:Warning: No puede encontrar el archivo para el activo '/Game/Game/Minimap/T_minimap_Mat' mientras carga ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2016.04.16-02.49.52:119][149]LogLinker:Warning: No puede encontrar el archivo '/Game/Game/Minimap/T_minimap_Mat'
+[2016.04.16-02.49.52:119][149]LoadErrors: Información Error al cargar /Game/Game/UserInterface/HUD_2.HUD_2_C Referenciado por Image_84
+[2016.04.16-02.49.52:119][149]LogLinker:Warning: No puede encontrar el archivo para el activo '/Game/Game/Minimap/T_minimap_Mat' mientras carga ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2016.04.16-02.49.52:119][149]LogLinker:Warning: No puede encontrar el archivo '/Game/Game/Minimap/T_minimap_Mat'
+[2016.04.16-02.49.52:120][149]LogLinker:Warning: No puede encontrar el archivo para el activo '/Game/Game/Minimap/T_minimap_Mat' mientras carga ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2016.04.16-02.49.52:256][149]LogLinker:Warning: No puede encontrar el archivo '/Game/Game/Minimap/T_minimap_Mat'
+[2016.04.16-02.49.52:257][149]LogLinker:Warning: No puede encontrar el archivo para el activo '/Game/Game/Minimap/T_minimap_Mat' mientras carga ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/UserInterface/HUD_2.uasset.
+[2016.04.16-02.49.52:257][149]LoadErrors:Error: Error /Game/Game/UserInterface/HUD_2 : No puede encontrar el archivo para el activo. /Game/Game/Minimap/T_minimap_Mat
+[2016.04.16-02.49.52:257][149]LogLinker:Warning: No puede encontrar el archivo '/Game/Game/Minimap/T_minimap_Mat'
+[2016.04.16-02.49.52:257][149]LogLinker:Warning: No puede encontrar el archivo para el activo '/Game/Game/Minimap/T_minimap_Mat' mientras carga ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/UserInterface/HUD_2.uasset.
+[2016.04.16-02.49.52:608][149]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.16-02.49.53:340][149]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 107 classes and 0 folders.
+[2016.04.16-02.50.15:072][373]LogMaterial: Missing cached shader map for material T_minimap_Mat, compiling. 
+[2016.04.16-02.50.17:443][501]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Maps/Menu" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Maps/Menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.04.16-02.50.17:562][501]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C218A7F240
+[2016.04.16-02.50.17:564][501]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C218A7E5C0
+[2016.04.16-02.50.17:991][501]LogSavePackage: Save=197.518234ms
+[2016.04.16-02.50.17:991][501]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/Menu7F454060484EF84DAF5B909C17B537F7.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Maps/Menu.umap'
+[2016.04.16-02.50.17:996][501]LogSavePackage: Total save time: 401.967488ms
+[2016.04.16-02.50.17:996][501]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Maps/Menu.umap
+[2016.04.16-02.50.32:558][323]BlueprintLog: New page: Compilar HUD_2
+[2016.04.16-02.50.32:714][323]BlueprintEditorCompileResults: Información The execution path doesn't end with a return node.  Cast Failed 
+[2016.04.16-02.50.32:714][323]BlueprintEditorCompileResults: Información [0166.93] Compile of HUD_2 successful! [in 156 ms]
+[2016.04.16-02.50.34:037][400]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/UserInterface/HUD_2" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/UserInterface/HUD_2.uasset" SILENT=true
+[2016.04.16-02.50.34:182][400]LogSavePackage: Save=27.572521ms
+[2016.04.16-02.50.34:183][400]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/HUD_280038C61461150284908F3942492D479.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/UserInterface/HUD_2.uasset'
+[2016.04.16-02.50.34:189][400]LogSavePackage: Total save time: 149.833094ms
+[2016.04.16-02.50.34:189][400]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/UserInterface/HUD_2.uasset
+[2016.04.16-02.50.40:266][756]LogMaterial: Missing cached shader map for material T_minimap_Mat, compiling. 
+[2016.04.16-02.50.40:411][756]LogMaterial: Missing cached shader map for material T_minimap_Mat, compiling. 
+[2016.04.16-02.50.40:418][756]LogMaterial: 0.000055 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.16-02.50.40:456][756]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.04.16-02.50.43:949][886]LogMaterial: Missing cached shader map for material T_minimap_Mat, compiling. 
+[2016.04.16-02.50.43:961][886]LogMaterial: 0.000100 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.16-02.50.44:003][886]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.04.16-02.50.47:268][ 20]LogMaterial: Missing cached shader map for material T_minimap_Mat, compiling. 
+[2016.04.16-02.50.47:279][ 20]LogMaterial: 0.000082 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.16-02.50.48:705][ 77]LogMaterialEditor: Saving and Compiling material T_minimap_Mat
+[2016.04.16-02.50.49:907][ 77]LogMaterial: Missing cached shader map for material T_minimap_Mat, compiling. 
+[2016.04.16-02.50.49:939][ 77]LogMaterial: 0.000069 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.16-02.50.49:999][ 77]LogMaterial: Missing cached shader map for material T_minimap_Mat, compiling. 
+[2016.04.16-02.50.50:045][ 77]LogMaterial: Missing cached shader map for material T_minimap_Mat, compiling. 
+[2016.04.16-02.50.50:060][ 77]LogMaterial: 0.000788 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.16-02.50.55:510][ 77]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Minimap/T_minimap_Mat" FILE="../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Minimap/T_minimap_Mat.uasset" SILENT=true
+[2016.04.16-02.50.55:534][ 77]LogSavePackage: Save=20.711540ms
+[2016.04.16-02.50.55:534][ 77]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Saved/T_minimap_Mat6841B19C4A19357D4A846BAAC2B5B23D.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Minimap/T_minimap_Mat.uasset'
+[2016.04.16-02.50.55:541][ 77]LogSavePackage: Total save time: 27.510937ms
+[2016.04.16-02.50.55:541][ 77]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/Unreal Projects/ProyectoUE2/Content/Game/Minimap/T_minimap_Mat.uasset
+[2016.04.16-02.50.55:655][ 77]MaterialEditorStats: Información Base pass shader with only dynamic lighting: 62 instructions
+[2016.04.16-02.50.55:655][ 77]MaterialEditorS
